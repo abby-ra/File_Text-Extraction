@@ -1,0 +1,49 @@
+=== TEXT CONTENT ===
+--- Page 1 ---
+ABINAYA R
+SUMMARY
+Google Gemini Student Ambassador with expertise in Python, Machine Learning, NLP, Deep Learning, and
+Generative AI. Skilled in designing and delivering full-stack applications and AI-powered solutions, with
+hands-on experience in deploying scalable systems on cloud platforms. Passionate about leveraging emerging
+technologies to solve real-world challenges and create impactful Generative AI products. Actively engaged in
+mentoring peers and fostering AI adoption through workshops, hackathons, and community initiatives.
+EDUCATION
+Bachelor of Technology in Information Technology (B.Tech IT)
+Bannari Amman Institute of Technology
+Graduating with Honors 
+Relevant Coursework: Data Structures & Algorithms, Software Engineering, Cloud Computing,
+Operating Systems, Exploratory Data Analysis, Web Technologies
+May 2023 - Present
+PROJECTS
+AI-Powered Online Bookstore
+React.js, Flask,pandas, NLTK, Generative AI, TF-IDF, Cosine Similarity
+Developed a full-stack web application serving several books with efficient data processing and semantic
+search.
+ Integrated Generative AI–powered recommendations and intelligent book discovery, supported by
+REST APIs for categories, search, and book details.
+abbynayaraj@gmail.com  • github.com/abby-ra  • linkedin.com/in/abbynaya  • Tamil Nadu, India
+TECHNICAL SKILLS
+Programming & CS Fundamentals : Python, Data Structures & Algorithms, Object-Oriented Programming 
+ AI & Machine Learning : Generative AI, Natural Language Processing (NLP),Deep Learning(DL)
+Cloud & Infrastructure : Amazon Web Services (AWS)
+DevOps & Tools : Docker, Kubernetes, Jenkins
+Databases & Monitoring : MySQL
+CERTIFICATIONS AND ACHIEVEMENTS
+Certifications: 
+GitHub Foundations - GitHub, Jan 2025
+Microsoft Azure Fundamentals - Microsoft, Feb 13
+Languages (L,S,R,W) : English, Tamil
+Leadership & Activities : 
+Google Gemini Student Ambassador –  Mentored
+peers, and collaborated on community tech events.
+LANturn – Remote System Power Management
+React, Node.js, Express, MySQL, Wake-on-LAN
+Collaborated with a team to design and develop a web application enabling remote power management of
+Windows systems individually or in clusters.
+Applied software engineering principles to implement backend task scheduling and optimize API
+requests, reducing power management time for labs/offices by 80%.
+Private Cloud Deployment with OpenStack Oil Spill Detection & Response System 
+Python, AIS API, Copernicus, Deep Learning (U-Net, Swin Transformer), A* Pathfinding
+Built an automated system combining real-time AIS data and Sentinel-1 imagery for oil spill detection.
+Applied anomaly detection and deep learning segmentation models, integrated Copernicus API for live
+data, and implemented A* for emergency response routing.
