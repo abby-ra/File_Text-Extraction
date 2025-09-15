@@ -1,25 +1,11 @@
 
 # Hugging Face Transformers is used for text summarization.
 # spaCy is used for Named Entity Recognition (NER) and other NLP tasks on the summary.
-from transformers import pipeline
-import spacy
 
-
-# Initialize the Hugging Face summarization pipeline with the Longformer Encoder-Decoder model.
-# This model can handle very long documents, making it suitable for summarizing OCR text from 1000+ pages.
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-
-
-# Load spaCy English model for NER and other NLP tasks.
-# If the model is not found, it will be downloaded automatically.
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    import sys
-    print("spaCy model 'en_core_web_sm' not found. Installing...")
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
+# Use Sumy for extractive summarization
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.text_rank import TextRankSummarizer
 
 # ------------------------------
 # Step 1: Chunking the Text
@@ -63,77 +49,98 @@ def extract_keywords(text, top_n=20):
     keywords.sort(key=lambda k: -text.count(k))
     return ", ".join(keywords[:top_n])
 
-def summarize_large_text(text, max_chunk_size=1000):
-    """
-    1. Extract important keywords/phrases from the text.
-    2. Prepend them to the text to guide the summarizer.
-    3. Summarize as before.
-    """
-    print("🔹 Extracting important keywords/phrases from the document...")
-    keywords = extract_keywords(text, top_n=20)
-    print(f"🔹 Important keywords/phrases: {keywords}")
-    # Prepend keywords to the text to bias the summarizer
-    text_with_keywords = keywords + "\n" + text
-    chunks = chunk_text(text_with_keywords, max_chunk_size)
-    print(f"🔹 Splitting into {len(chunks)} chunks...")
 
-    partial_summaries = []
-    for i, chunk in enumerate(chunks):
-        summary = summarizer(chunk, max_length=180, min_length=60, do_sample=False)
-        partial_summaries.append(summary[0]['summary_text'])
-        print(f"✅ Processed chunk {i+1}/{len(chunks)}")
-
-    # Final summary from partial summaries (longer summary)
-    final_summary = summarizer(" ".join(partial_summaries), 
-                               max_length=2000, min_length=500, do_sample=False)
-    return final_summary[0]['summary_text']
+def summarize_large_text(text, num_sentences=100):
+    print("🔹 Using extractive summarization (Sumy/TextRank)...")
+    parser = PlaintextParser.from_string(text, Tokenizer("english"))
+    summarizer = TextRankSummarizer()
+    summary = summarizer(parser.document, num_sentences)
+    return " ".join(str(sentence) for sentence in summary)
 
 
 # ------------------------------
 # Example Usage
 # ------------------------------
 if __name__ == "__main__":
+    import spacy
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        import sys
+        print("spaCy model 'en_core_web_sm' not found. Installing...")
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+        nlp = spacy.load("en_core_web_sm")
     import os
-    input_file = "KMRL_demo_text.txt"  # Path to your OCR text file
-    print(f"🔍 Checking for input file: {input_file}")
-    if not os.path.exists(input_file):
-        print(f"❌ Input file '{input_file}' not found. Please provide the OCR text file in the same directory as demo.py.")
-        exit(1)
-    try:
-        with open(input_file, "r", encoding="utf-8") as f:
-            icr_text = f.read()
-    except Exception as e:
-        print(f"❌ Error reading '{input_file}': {e}")
-        exit(1)
+    input_dir = "extracted_texts"
+    output_dir = "summarized_texts"
+    os.makedirs(output_dir, exist_ok=True)
 
-    if not icr_text.strip():
-        print(f"❌ The input file '{input_file}' is empty. Please provide OCR text in the file.")
-        exit(1)
+    txt_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
+    if not txt_files:
+        print(f"❌ No .txt files found in '{input_dir}'. Please provide extracted text files.")
+    for input_file in txt_files:
+        input_path = os.path.join(input_dir, input_file)
+        print(f"\n🔍 Processing file: {input_path}")
+        try:
+            with open(input_path, "r", encoding="utf-8") as f:
+                icr_text = f.read()
+        except Exception as e:
+            print(f"❌ Error reading '{input_path}': {e}")
+            continue
 
-    print(f"✅ Loaded OCR text. Length: {len(icr_text)} characters.")
-    print("🔹 Summarizing very large document from OCR text...")
-    try:
-        summary = summarize_large_text(icr_text, max_chunk_size=500)  # adjust chunk size as needed
+        if not icr_text.strip():
+            print(f"❌ The input file '{input_path}' is empty. Skipping.")
+            continue
 
-        # Post-process the summary to remove unwanted lines/phrases.
-        unwanted_starts = [
-            "Back to", "Back into", "The full transcript is available at:", "You can now see the full transcript"
-        ]
-        filtered_lines = []
-        for line in summary.splitlines():
-            if not any(line.strip().startswith(start) for start in unwanted_starts):
-                filtered_lines.append(line)
-        cleaned_summary = " ".join(filtered_lines).strip()
-        print("\n--- Final Summary ---\n", cleaned_summary)
+        print(f"✅ Loaded OCR text. Length: {len(icr_text)} characters.")
+        print("🔹 Summarizing very large document from OCR text...")
+        try:
+            summary = summarize_large_text(icr_text, num_sentences=10)
+        except Exception as e:
+            print(f"❌ Error during summarization for '{input_file}': {e}")
+            continue
 
-        # Use spaCy to extract named entities with 2-3 word context from the summary.
-        doc = nlp(cleaned_summary)
-        print("\n--- Named Entities in Summary (with context) ---")
-        for ent in doc.ents:
-            # Get 2-3 word context around the entity
-            start = max(ent.start - 2, 0)
-            end = min(ent.end + 2, len(doc))
-            context = doc[start:end].text
-            print(f"{ent.text} ({ent.label_}): {context}")
-    except Exception as e:
-        print(f"❌ Error during summarization: {e}")
+        print("\n--- Final Summary ---\n", summary)
+
+        # Save the summary to a file in summarized_texts folder
+        base_name = os.path.splitext(os.path.basename(input_file))[0]
+        output_file = os.path.join(output_dir, f"summary_{base_name}.txt")
+        with open(output_file, "w", encoding="utf-8") as out_f:
+            out_f.write(summary)
+        print(f"\n✅ Summary saved to {output_file}")
+
+    # Automatically convert each summary to PDF and save in output_folder
+    from fpdf import FPDF
+    pdf_output_dir = "output_folder"
+    os.makedirs(pdf_output_dir, exist_ok=True)
+    font_path = os.path.join("fonts", "DejaVuSans.ttf")
+    for fname in os.listdir(output_dir):
+        if not fname.endswith(".txt"):
+            continue
+        base = fname.replace("summary_", "").replace("_extracted", "").replace(".txt", "").lower()
+        summary_path = os.path.join(output_dir, fname)
+        with open(summary_path, "r", encoding="utf-8") as f:
+            summary_text = f.read()
+        # Named Entity Recognition
+        doc = nlp(summary_text)
+        entities = [(ent.text, ent.label_) for ent in doc.ents]
+        print(f"\n--- Named Entities in {fname} ---")
+        for ent_text, ent_label in entities:
+            print(f"{ent_text} ({ent_label})")
+        # Append entities to the summary .txt file
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write("\n\n--- Named Entities ---\n")
+            for ent_text, ent_label in entities:
+                f.write(f"{ent_text} ({ent_label})\n")
+        output_pdf = os.path.join(pdf_output_dir, f"{base}_summarized.pdf")
+        pdf = FPDF()
+        pdf.add_page()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_font("DejaVu", "", font_path, uni=True)
+        pdf.set_font("DejaVu", size=12)
+        for line in summary_text.splitlines():
+            pdf.multi_cell(0, 10, line)
+        pdf.output(output_pdf)
+        print(f"Saved PDF: {output_pdf}")
+    print("PDF conversion complete. Check the 'output_folder' directory.")

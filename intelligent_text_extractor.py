@@ -119,21 +119,22 @@ class IntelligentTextExtractor:
         """Extract text from PDF using PyMuPDF"""
         doc = fitz.open(pdf_path)
         text_content = []
-        
         logger.info(f"Extracting text from {len(doc)} pages using PyMuPDF...")
-        
         for page_num in range(len(doc)):
             page = doc[page_num]
             text = page.get_text()
             if text.strip():
                 text_content.append(f"--- Page {page_num + 1} ---\n{text}")
-            
             # Progress indicator for large documents
             if (page_num + 1) % 50 == 0:
                 logger.info(f"Processed {page_num + 1}/{len(doc)} pages")
-        
         doc.close()
-        return "\n\n".join(text_content)
+        result = "\n\n".join(text_content)
+        # If no text found, fallback to OCR (Malayalam+English)
+        if not result.strip():
+            logger.info("No selectable text found, using Tesseract OCR for Malayalam/English PDF.")
+            result = self.extract_images_from_pdf_ocr(pdf_path)
+        return result
 
     def extract_images_from_pdf_ocr(self, pdf_path: str, page_numbers: List[int] = None) -> str:
         """Extract text from PDF images using Tesseract OCR"""
@@ -145,21 +146,19 @@ class IntelligentTextExtractor:
         
         for page_num in pages_to_process:
             page = doc[page_num]
-            
             # Convert page to image
             mat = fitz.Matrix(2.0, 2.0)  # Higher resolution for better OCR
             pix = page.get_pixmap(matrix=mat)
             img_data = pix.tobytes("png")
-            
-            # OCR the image
+            # OCR the image (Malayalam + English)
             try:
                 image = Image.open(io.BytesIO(img_data))
-                ocr_text = pytesseract.image_to_string(image, lang='eng')
+                # Always use Malayalam+English model for best coverage
+                ocr_text = pytesseract.image_to_string(image, lang='mal+eng')
                 if ocr_text.strip():
                     ocr_content.append(f"--- Page {page_num + 1} (OCR) ---\n{ocr_text}")
             except Exception as e:
                 logger.error(f"OCR failed for page {page_num + 1}: {e}")
-            
             # Progress indicator
             if (page_num + 1) % 10 == 0:
                 logger.info(f"OCR processed {page_num + 1} pages")
@@ -216,7 +215,8 @@ class IntelligentTextExtractor:
         try:
             logger.info(f"Extracting text from image: {image_path}")
             image = Image.open(image_path)
-            text = pytesseract.image_to_string(image, lang='eng')
+            # Always use Malayalam+English model for best coverage
+            text = pytesseract.image_to_string(image, lang='mal+eng')
             return text
         except Exception as e:
             logger.error(f"Image OCR failed: {e}")
@@ -228,12 +228,15 @@ class IntelligentTextExtractor:
             logger.info(f"Extracting text from Word document: {docx_path}")
             doc = Document(docx_path)
             text_content = []
-            
             for paragraph in doc.paragraphs:
                 if paragraph.text.strip():
                     text_content.append(paragraph.text)
-            
-            return "\n".join(text_content)
+            result = "\n".join(text_content)
+            # If no text found, fallback to OCR (convert each page to image and OCR)
+            if not result.strip():
+                logger.info("No text found in DOCX, attempting OCR (Malayalam/English) on images (not implemented here)")
+                # Optionally, implement DOCX to image conversion and OCR here
+            return result
         except Exception as e:
             logger.error(f"Word document extraction failed: {e}")
             return ""

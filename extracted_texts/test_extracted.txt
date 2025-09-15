@@ -1,0 +1,13 @@
+{
+  "document_type": "invoice",
+  "invoice_no": "KM-INV-2025-09",
+  "date": "2025-09-14",
+  "vendor": "ABC Supplies Pvt Ltd",
+  "line_items": [
+    {"item": "Steel Rails", "qty": 100, "unit_price": "₹5,000", "total": "₹500,000"},
+    {"item": "Concrete Sleepers", "qty": 200, "unit_price": "₹1,200", "total": "₹240,000"}
+  ],
+  "total_amount": "₹740,000",
+  "tax": "₹37,000",
+  "grand_total": "₹777,000"
+}
