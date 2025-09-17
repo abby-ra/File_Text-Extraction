@@ -7,6 +7,7 @@ Automatically detects file types and extracts text using appropriate tools:
 - Word docs: python-docx
 Handles 500+ page documents efficiently.
 """
+
 import os
 os.environ['PATH'] += os.pathsep + r'C:\Program Files\Tesseract-OCR'
 
