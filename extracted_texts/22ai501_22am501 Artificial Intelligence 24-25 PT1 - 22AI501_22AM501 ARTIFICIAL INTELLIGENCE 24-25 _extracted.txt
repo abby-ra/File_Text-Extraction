@@ -1,0 +1,560 @@
+=== TEXT CONTENT ===
+--- Page 1 ---
+22ai501/22am501 Artificial Intelligence 24-25 PT1
+ 
+DISCOURSE_BIT 1 October 1, 2024, 5:08am
+1. Question
+Ishita is designing a Robot Vacuum Cleaner that efficiently cleans a room without revisiting the same area multiple
+times. The robot has sensors to detect obstacles, walls, and dirt. It must navigate the room effectively to maximize
+cleaning coverage. The environment state of the robot vacuum cleaner is not fully observable.
+Figure: Robot Vacuum Cleaner
+Based on the above Scenario, Rearrange the steps taken to solve the problem in Robot Vacuum Cleaner which is
+partially observable environment.
+Step 1: Now get a path which connects several belief states.
+Step 2: Solution is a path that leads to a belief state, all of whose members are goal states.
+Step 3: Initial state is belief state which can further mapped to another belief state.
+Step 4: Agent searches for belief state instead of physical state.
+Step 5: Action is applied to belief state by taking union of the results obtained from applying the action to each
+physical state in the belief state.
+Answer:
+
+
+--- Page 2 ---
+Step 1: Agent searches for belief state instead of physical state.
+Step 2: Initial state is belief state which can further mapped to another belief state.
+Step 3: Action is applied to belief state by taking union of the results obtained from applying the action to each
+physical state in the belief state.
+Step 4: Now get a path which connects several belief states.
+Step 5: Solution is a path that leads to a belief state, all of whose members are goal states.
+2. Question
+Identify which of the following is a characteristic of searching with partial information?
+a) The agent has complete knowledge of the environment.
+b) The agent has a perfect model of the state space.
+c) The agent must make decisions based on uncertain or incomplete information.
+d) The agent knows all possible actions and their outcomes.
+Answer:
+c) The agent must make decisions based on uncertain or incomplete information.
+3. Question
+Identify which of the following best describes a sensor model in the context of partial information search?
+a) It defines the initial state of the agent.
+b) It represents the transition between states.
+c) It provides a mapping from states to observations.
+d) It defines the goal state for the agent.
+Answer:
+c) It provides a mapping from states to observations.
+4. Question
+Sheela is working on a movie recommendation system for a streaming platform. The system suggests movies to users
+based on their past viewing history which is based on the Algorithm Selection, ratings, Complexity Analysis and other
+user data.
+Based on the above Scenario, Complete the search algorithms with its complexity analysis.
+S.No Search algorithms
+Time Complexity
+Space Complexity
+1
+Breadth-first search
+a) __________________
+O(b d)
+2
+Depth-first search
+T(n) = 1+n2 +n3 +… +nm= O(nm) b) _________________
+3
+Depth-limited search algorithm
+c) _________________
+O(b * l)
+
+
+--- Page 3 ---
+S.No Search algorithms
+Time Complexity
+Space Complexity
+4
+Uniform-cost search
+d) _________________
+O(b 1 + [C*/Σ]
+5
+Iterative deepening depth-first Search O(b d)
+e) _________________
+6
+Bidirectional Search Algorithm
+f) _________________
+O(b d)
+Answer:
+a) T(b) = 1+b2 +b3 +… +b d = O(b d)
+b) O(bm)
+c) O(bl)
+d) O(bd)
+e) O(b d)
+5. Question
+Sakthi was an AI developer who was developing an AI agent to participate in a treasure hunt within a complex maze.
+The maze is a grid of cells, some of which are blocked (walls), and some contain treasures. The agent starts at a given
+position and needs to find the shortest path to a treasure. The environment is static, meaning the maze layout does not
+change. Based on the above Scenario, answer the questions below.
+[Hint: cells —à node ,walls —à arrows , treasures —à cost of the node ; Starting cell(node) – A and Ending/Goal
+cell(Goal node) - K ]
+
+
+--- Page 4 ---
+Figure: Treasure hunt(Searching Problem)
+Consider the above Figure: Treasure hunt(Searching Problem), and Predict the output for
+a) Breadth-first Search (Goal node E) [Hint]: A---->B---->C
+b) Depth-first Search (Goal node E) [Hint]: A---->B---->D
+c) Depth-limited Search (Goal node G) [Hint]: A---->B---->D
+d) Iterative deepening depth-first search (Goal node E) [Hint]: A---->B---->C
+e) Uniform cost search (Goal node K) [Hint]: A---->B---->C
+Answer:
+a) A-B-C-D-E
+b) A-B-D-H-I-E
+c) A-B-D-E-C-F-G
+d) A-B-C-D-E or A-B-D-E
+e) A-B-C-D-E or A-B-D-E
+6. Question
+
+
+--- Page 5 ---
+Assertion (A): The uninformed search does not contain any domain knowledge such as closeness, the location of the
+goal. It operates in a brute-force way as it only includes information about how to traverse the tree and how to identify
+leaf and goal nodes.
+Reason (R): As it applies in a way in which search tree is searched without any information about the search space
+like initial state operators and test for the goal, so it is also called blind search. It examines each node of the tree until
+it achieves the goal node.
+Choose the correct option:
+a) Both A and R are true and R is the correct explanation of A.
+b) Both A and R are true but R is not the correct explanation of A.
+c) A is false but R is true.
+d) Both A and R are false.
+Answer:
+a) Both A and R are true and R is the correct explanation of A.
+7. Question
+Vidhya is going to build an AI agent for a city navigation system designed to find the shortest path between two
+locations in a large metropolitan area. The city is represented as a graph, where intersections are nodes and roads are
+edges with varying distances. The AI agent needs to efficiently navigate this graph to provide the shortest route
+between any two given locations.
+Based on the above Scenario, is Vidhya using the bidirectional search algorithm is used. If yes, means justify with
+your answer.
+Answer:
+Yes.
+Bidirectional search algorithm runs two simultaneous searches, one form initial state called as forward-search and
+other from goal node called as backward-search, to find the goal node. Bidirectional search replaces one single search
+graph with two small subgraphs in which one starts the search from an initial vertex and other starts from goal vertex.
+The search stops when these two graphs intersect each other. Bidirectional search can use search techniques such as
+BFS, DFS, DLS, etc.
+8. Question
+Which search algorithm uses both the cost to reach the node and the estimated cost to reach the goal to determine the
+next node to explore?
+a) Uniform Cost Search
+b) Depth-First Search
+c) A* Search
+d) Breadth-First Search
+
+
+--- Page 6 ---
+Answer:
+c) A* Search
+9. Question
+Identify which of the following steps involves evaluating the potential sequences of actions to achieve the goal?
+a) Goal formulation
+b) Problem formulation
+c) Search for solutions
+d) Execute the solution
+Answer:
+c) Search for solutions
+10. Question
+Which step involves defining the actions, states, and their transitions in a problem-solving agent?
+a) Goal formulation
+b) Problem formulation
+c) Search for solutions
+d) Execute the solution
+Answer:
+b) Problem formulation
+11. Question
+When an agent uses a sensor to gather information about its environment, which type of search is it performing?
+a) Online search
+b) Offline search
+c) Heuristic search
+d) Uniform Cost Search
+Answer:
+a) Online search
+12. Question
+Ishita is designing a Robot Vacuum Cleaner that efficiently cleans a room without revisiting the same area multiple
+times. The robot has sensors to detect obstacles, walls, and dirt. It must navigate the room effectively to maximize
+cleaning coverage. The environment state of the robot vacuum cleaner is not fully observable.
+
+
+--- Page 7 ---
+Figure: Robot Vacuum Cleaner
+​Based on the above Scenario, identify the three distinct types of problems of partially observable Robot Vacuum
+Cleaner.
+[Hint]: Sensor less problems
+Answer:
+a) Sensor less problems
+b) Contigency problems
+c) Exploration problems
+[Note: Can be in any order]
+13. Question
+Which of the following algorithms is commonly used to solve CSPs?
+a) Minimax Algorithm
+b) Backtracking Search
+c) Breadth-First Search
+d) Gradient Descent
+Answer:
+b) Backtracking Search
+14. Question
+Consider a local search algorithm which are not just another tool in the AI toolbox; they are the guiding stars in the
+vast universe of optimization and problem-solving. Their significance can be summarized in a few key points. Based
+on this scenario, answer the questions below.
+
+
+--- Page 8 ---
+Figure: Local Search
+​Based on the above Figure: Local Search, identify the missing parts A, B, C and D of the local search algorithm.
+Answer:
+A - Shoulder
+B - Global maximum
+C - Local maximum
+D - Current state
+15. Question
+Consider a problem of preparing a schedule for a class of student. What type of problem is this?
+a) Search Problem
+b) Backtrack Problem
+c) CSP
+d) Planning Problem
+Answer:
+c) CSP
+16. Question
+
+
+--- Page 9 ---
+Which of the following is a common technique to improve the efficiency of backtracking in CSPs?
+a) Depth-First Search
+b) Hill-Climbing
+c) Forward Checking
+d) Random Restart
+Answer:
+c) Forward Checking
+17. Question
+Let’s consider a simplified Sudoku puzzle to illustrate the problem-solving process step by step. It includes:
+Variables: 9x9 grid cells
+Domains: Numbers from 1 to 9
+Constraints: No number can repeat in the same row, column, or 3x3 sub grid.
+[Hint]: Step 1: Start with an empty Sudoku grid.
+Based on the above condition, Complete the problem-solving steps for 9x9 Sudoku grid cells.
+Step 2: _________________
+Step 3: _________________
+Step 4: _________________
+Answer:
+Step 2: Apply the initial constraints for the given numbers, reducing the domains of variables based on the puzzle’s
+clues.
+Step 3: Use constraint propagation to narrow down the domains further. For example, if a row has two cells with
+domains {2, 5}, and the constraint specifies that these two cells cannot have the same number, we can eliminate the
+possibility of 5 for one of them.
+Step 4: Continue applying constraints and propagating until the domains of variables are either empty or filled with
+single values. If they are all filled, you have a valid solution. If any variable’s domain is empty, you backtrack to the
+previous step and try an alternative assignment.
+18. Question
+Match the domains of a variable in a Constraint satisfaction problem with its description and functionalities.
+S.N
+o
+Domain
+Description
+Functionalities
+1
+Finite domains
+infinite number of possible values
+Backtracking, forward checking, and
+local search
+
+
+--- Page 10 ---
+S.N
+o
+Domain
+Description
+Functionalities
+2
+Infinite domains
+complete assignment of values to all the
+variables
+coefficients of a polynomial function
+3
+Continuous
+domains
+finite number of possible values
+real numbers
+4
+Notion of the
+Solution
+set of all possible configurations of variable
+assignments
+colors or integers
+5
+State-space
+finite set of parameters
+scheduling problem
+Answer:
+S.N
+o
+Domain
+Description
+Functionalities
+1
+Finite domains
+finite number of possible values
+colors or integers
+2
+Infinite domains
+infinite number of possible values
+real numbers
+3
+Continuous
+domains
+finite set of parameters
+coefficients of a polynomial function
+4
+Notion of the
+Solution
+complete assignment of values to all the
+variables
+scheduling problem
+5
+State-space
+set of all possible configurations of variable
+assignments
+Backtracking, forward checking, and
+local search
+19. Question
+What is the purpose of constraint propagation in backtracking search?
+a) To randomly assign values to all variables
+b) To prune the search space by enforcing constraints locally and reducing domains of variables.
+c) To explore all possible variable assignments simultaneously
+d) To maximize the number of constraints that are violated
+Answer:
+
+
+--- Page 11 ---
+b) To prune the search space by enforcing constraints locally and reducing domains of variables.
+20. Question
+Kaviya is working on a scheduling system for a small conference. The system needs to assign time slots to different
+sessions, taking into account the availability of the rooms, the preferences of the speakers, and potential conflicts
+between sessions.
+Say True or false:
+Is back tracking being possible in the above scenario; If yes or No means justify with your answer.
+Answer:
+Yes,
+Backtracking is possible. It is well-suited for this problem because it systematically explores possible assignments and
+prunes those that violate constraints. It is particularly effective when:
+Constraints are complex: Constraints like room availability, time slot conflicts, and speaker preferences can be
+efficiently managed through backtracking.
+Search Space is large: Backtracking helps in narrowing down the search space by eliminating infeasible
+assignments early.
+Solution is incremental: The problem allows for incremental assignment, where partial solutions can be extended
+or retracted based on constraints.
+By using backtracking, you ensure that you explore all possible valid schedules and find a solution that satisfies all
+constraints. It balances between exploring potential solutions and avoiding invalid ones, making it a practical
+approach for scheduling problems with multiple constraints.
+21. Question
+Ajay have been hired as a consultant for a company that is developing an advanced AI system to optimize the layout
+of various components on a large circuit board. The problem of placing components on the board is similar to the
+classic N-Queens problem, where no two components (queens) should interfere with each other. This involves in the
+process of backtracking. The constraints in this scenario involve ensuring that components do not interfere with each
+other’s signals, while also minimizing the distance between connected components for efficiency.
+Based on the above Scenario, identify the real time applications of Constraint Specification Problem.
+a) CSP problem is how to efficiently and effectively schedule resources like personnel, equipment, and facilities.
+b) A I algorithms seamlessly combine and interpret data from these sensors, enabling robots to comprehend their
+surroundings, identify obstacles, recognize objects, and analyze intricate scenarios
+c) The constraints specify each vehicle’s capacity, delivery locations, and time windows, while the variables indicate
+the routes taken by the vehicles.
+
+
+--- Page 12 ---
+d) In this field, the variables stand in for the tasks, while the constraints specify the knowledge, capacity, and
+workload of each person or machine.
+e) Drones integrate various sensors, such as cameras, LiDAR (Light Detection and Ranging), radar, and infrared
+detectors.
+f) The well-known puzzle game Sudoku can be modelled as a CSP problem.
+g) The quality of an image into areas with various qualities can be treated as a 4 CSP issue in computer vision
+Answer:
+a) CSP problem is how to efficiently and effectively schedule resources like personnel, equipment, and facilities.
+c) The constraints specify each vehicle’s capacity, delivery locations, and time windows, while the variables indicate
+the routes taken by the vehicles.
+d) In this field, the variables stand in for the tasks, while the constraints specify the knowledge, capacity, and
+workload of each person or machine.
+f) The well-known puzzle game Sudoku can be modelled as a CSP problem.
+22. Question
+What is the key feature of Hill Climbing that differentiates it from other search algorithms?
+a) It uses a heuristic function
+b) It allows backtracking
+c) It only moves to neighboring states with higher value
+d) It explores all possible states
+Answer:
+c) It only moves to neighboring states with higher value
+23. Question
+Identify the correct and incorrect statements of Constraint Satisfaction Problem.
+a) Various algorithms, including backtracking, forward checking, and local search, can be used to search the state
+space and find a solution to the Constraint Satisfaction Problem.
+b) Constraint satisfaction problem in AI has a wide range of applications, including scheduling, resource allocation,
+and automated reasoning.
+c) Solving a Constraint satisfaction problem in AI typically does not involves in searching.INC
+d) CSPs offer an unstructured and general framework for representing and solving problems, making them versatile in
+problem-solving applications.INC
+e) Algorithms for propagating constraints are a class that uses local consistency and inference to condense the search
+space.
+Answer:
+a) Correct
+
+
+--- Page 13 ---
+b) Correct
+c) Incorrect
+d) Incorrect
+e) Correct
+24. Question
+In backtracking search, what happens when a variable assignment violates a constraint?
+a) The algorithm restarts with a new set of variables
+b) The algorithm backtracks to the previous variable assignment and tries a different value
+c) The algorithm terminates immediately
+d) The algorithm ignores the violation and proceeds with the search
+Answer:
+b) The algorithm backtracks to the previous variable assignment and tries a different value
+25. Question
+Predict the missing relationship (1, 2, 3 and 4) in the following ontological graph using given logic code below.
+1)Mother(john,sue)
+2)Age(john,5)
+3)Wife(sue,max)
+4)Age(max,34)
+Answer:
+1)mother
+
+
+--- Page 14 ---
+2)age
+3)wife
+4)age
+26. Question
+Predicate
+Interpretation
+valuable(gold)
+Gold is valuable
+owns(john,gold)
+?
+father(john,mary)
+?
+gives (john,book,mary)
+?
+Predict the logic statement for the given predicate in the above table.
+Answer:
+Predicate
+Intrepretation
+—
+—
+valuable(gold)
+Gold is valuable
+owns(john,gold)
+John owns gold
+father(john,mary)
+John is the father of Mary
+gives (john,book,mary)
+John gives the book to Mary
+27. Question
+Which inference mechanism is more suitable for tasks that involve real-time reasoning and decision-making?
+a) Forward chaining
+b) Backward chaining
+c) Both forward and backward chaining
+d) Neither forward nor backward chaining
+Answer:
+a) Forward chaining
+28. Question
+Predict the missing fields (a, b, c and d) in the following knowledge engineering process.
+
+
+--- Page 15 ---
+Answer:
+a) Acquisition of knowledge
+b) Prepare a road map
+c) Encode
+d) Evaluate and debug
+29. Question
+A smart home system can control various appliances based on user preferences and environmental conditions. The
+system considers three conditions:
+P: The living room light is ON.
+Q: The door is locked.
+R: The security alarm is activated.
+Infer the following truth table for the following propositional logic expression:
+Expression: (P∧Q)→R
+P
+Q R (P ∧ Q) → R
+T
+T T T
+T
+T F ?
+T
+F T ?
+
+
+--- Page 16 ---
+P
+Q R (P ∧ Q) → R
+T
+F F ?
+F
+T T ?
+F
+T F ?
+Answer:
+P Q R (P ∧ Q) → R
+T T T T
+T T F F
+T F T T
+T F F T
+F T T T
+F T F T
+30. Question
+In forward chaining process, which of the following factors that starts with?
+a) A goal
+b) Known facts
+c) Rules
+d) A hypothesis
+Answer:
+b) Known facts
+31. Question
+Which inference mechanism is more suitable for tasks that require working backward from a goal?
+a) Forward chaining
+b) Backward chaining
+c) Both forward and backward chaining
+d) Neither forward nor backward chaining
+Answer:
+
+
+--- Page 17 ---
+b) Backward chaining
+32. Question
+Which of the following could the Existential instantiation of ∃x Cap(x) ^ OnHead(x, Johnny)?
+a) Cap (John) ^ OnHead(John, Jonny)
+b) Cap (y) ^ OnHead(y, y, x)
+c) Cap(x) ^ OnHead(x, Jonny)
+d) None of these
+Answer:
+a) Cap (John) ^ OnHead(John, Jonny)
+33. Question
+Infer the following statements whether it is forward chaining or backward chaining.
+a) Given a set of symptoms (e.g., cough, fever, fatigue), determine which diseases (e.g., flu, cold, pneumonia) are
+possible based on existing rules about symptoms and diseases.
+b) Begin with a desired conclusion (e.g., the suspect is guilty of theft) and work backwards to find the necessary facts
+that must be true to support this conclusion (e.g., was there a witness?).
+c) The robot starts from its initial position and uses sensor data (e.g., walls, open paths) to infer a sequence of moves
+until it reaches the exit.
+d) If a student wants to qualify for a specific career (e.g., software engineer), the system works backward to identify
+which prerequisite courses and electives they must take to meet that goal.
+Answer:
+a) Forward chaining
+b) Backward chaining
+c) Forward chaining
+​d) Backward chaining
+34. Question
+Which of the following is a key difference between unification and lifting?
+a. Unification matches specific values, while lifting generalizes rules.
+b. Unification combines rules, while lifting derives new facts.
+c. Unification derives new facts, while lifting matches specific values.
+d. Unification generalizes rules, while lifting combines rules.
+Answer:
+a. Unification matches specific values, while lifting generalizes rules.
+2 Likes

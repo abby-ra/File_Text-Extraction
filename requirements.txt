@@ -1,0 +1,12 @@
+pymupdf
+python-magic
+pytesseract
+Pillow
+boto3
+python-docx
+sumy
+spacy
+transformers
+fpdf
+langdetect
+requests

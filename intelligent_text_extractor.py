@@ -24,6 +24,7 @@ import time
 from pathlib import Path
 import logging
 from typing import List, Tuple, Dict
+from mineru_client import MineruClient
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -41,6 +42,20 @@ class IntelligentTextExtractor:
         except Exception as e:
             logger.warning(f"AWS Textract not configured: {e}")
             self.textract_client = None
+
+        # Optional Mineru (external extraction service) integration
+        # Enable by setting MINERU_API_KEY in the environment. You can also
+        # set MINERU_API_URL to point to a custom endpoint.
+        try:
+            self.mineru_client = MineruClient()
+            if not self.mineru_client.is_configured():
+                logger.info("Mineru client not configured (no MINERU_API_KEY). Skipping Mineru integration.")
+                self.mineru_client = None
+            else:
+                logger.info("Mineru client configured. Remote extraction enabled.")
+        except Exception as e:
+            logger.warning(f"Failed to initialize Mineru client: {e}")
+            self.mineru_client = None
 
     def setup_folders(self):
         """Create input and output folders if they don't exist"""
@@ -258,6 +273,24 @@ class IntelligentTextExtractor:
         logger.info(f"Processing {file_path} as {file_type}")
         
         all_text = []
+
+        # If Mineru client is available, try remote extraction first.
+        if self.mineru_client:
+            try:
+                logger.info("Attempting extraction via Mineru API for %s", file_path)
+                mineru_result = self.mineru_client.extract(file_path)
+                if mineru_result and mineru_result.get('text'):
+                    all_text.append("=== MINERU EXTRACTED ===\n" + mineru_result.get('text'))
+                    # Optionally include table data if returned
+                    if 'tables' in mineru_result and mineru_result['tables']:
+                        all_text.append("=== MINERU TABLES ===\n" + json.dumps(mineru_result['tables'], ensure_ascii=False))
+                    # If Mineru returned a thorough extraction, return early to avoid duplicate work
+                    logger.info("Mineru extraction succeeded for %s", file_path)
+                    return "\n\n".join(all_text)
+                else:
+                    logger.info("Mineru returned no text for %s, falling back to local extraction", file_path)
+            except Exception as e:
+                logger.warning(f"Mineru extraction failed for {file_path}: {e}. Falling back to local extraction.")
         
         if file_type == 'pdf':
             # Analyze PDF content
