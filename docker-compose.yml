@@ -1,0 +1,15 @@
+services:
+  chithrakan-ocr:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chithrakan-malayalam-ocr
+    volumes:
+      - ./input_files:/app/input_files:ro
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+    command: python chithrakan_docker.py
+    restart: unless-stopped

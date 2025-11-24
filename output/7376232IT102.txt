@@ -1,0 +1,126 @@
+[IMAGE DESCRIPTION - Qwen-VL]
+### Image Description
+
+#### Main Objects and Subjects:
+- **Dashboard**: The main interface of the National Internship Portal.
+- **Welcome Message**: "Welcome: ABINAYA"
+- **Email**: "abbynayaraj@gmail.com"
+- **Dashboard Section**:
+  - **2 Internships Applied**
+  - **0 Shortlisted**
+  - **0 Interview Calls**
+  - **0 Selected**
+  - **0 Completed**
+  - **0 Gig Applied**
+  - **0 Connections Verified**
+  - **0 Connections Pending for Verification**
+- **Profile Section**:
+  - **Dashboard**
+  - **Profile**
+  - **Assessment Test (NEW)**
+  - **Application Management**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  -
+
+[Malayalam+English - EasyOCR]
+Rian H7174
+Dashboard
+MINISTRY OF
+EDUCATION
+NATIONAL
+INTERNSHIP
+Click Here For Neat Registration
+PORTAL
+2
+Welcome: ABINAYA
+Internships Applied
+Shortlisted
+Interview Calls
+Selected
+Email: abbynayaraj@gmail.com
+Dashboard
+Completed
+Gig Applied
+Connections Verified
+Connections Pending
+for Verification
+EB  Profile
+H Assessment Test (NEW)
+Government Intership
+# Application Management
+ULBISmart City Name
+Internship Name
+Date of Application
+Status
+E  Private Internships
+Private Internships
+H  Government Internships
+Internship Name
+Date of Application
+Status
+GOOGLE FOR DEVELOPERS AI-ML VIRTUAL INTERNSHIP COHORT 11
+2025-01-30 03.50.07
+Applied
+EEB
+NHAI Internships
+Al & ML USING PYTHON
+2025-07-18 08.18.36
+Applied
+EE8  AMRUTAM 2.0
+Rural Internship
+EEB   Problem Statements
+# Logout
+Rural Body Name
+Internship Name
+Date of Application
+Status
+NHAI Internship
+EEB
+Go to Main Page

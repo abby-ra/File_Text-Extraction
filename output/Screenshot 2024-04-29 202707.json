@@ -1,0 +1,322 @@
+{
+  "source": "Screenshot 2024-04-29 202707.txt",
+  "text": "[English - PaddleOCR]\nCommon Orders of Growth:\nO(1): Constant time complexity. The algorithm's execution time or space requirement remains\nconstant regardless of the size of the input. Example: accessing an element in an array by\nindex.\nO(log n): Logarithmic time complexity. The algorithm's performance grows logarithmically\nwith the size of the input. Example: binary search.\nO(n): Linear time complexity. The algorithm's performance grows linearly with the size of the\ninput. Example: linear search.\nO(n log n): Log-linear time complexity. Commonly seen in efficient sorting algorithms such\nas mergesort and heapsort.\nO(n^2): Quadratic time complexity. The algorithm's performance grows quadratically with the\nsize of the input. Example: selection sort.\nO(2^n): Exponential time complexity. The algorithm's performance grows exponentially with\nthe size of the input. Example: brute-force search algorithms.\nO(n!): Factorial time complexity. The algorithm's performance grows factorially with the size\nof the input. Example: traveling salesman problem solved by brute force.",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "Screenshot 2024-04-29 202707_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 12856034314078305713,
+      "filename": "Screenshot 2024-04-29 202707_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          },
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          },
+          {
+            "$ref": "#/texts/17"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "[English - PaddleOCR]",
+        "text": "[English - PaddleOCR]"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Common Orders of Growth:",
+        "text": "Common Orders of Growth:"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(1): Constant time complexity. The algorithm's execution time or space requirement remains",
+        "text": "O(1): Constant time complexity. The algorithm's execution time or space requirement remains"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "constant regardless of the size of the input. Example: accessing an element in an array by",
+        "text": "constant regardless of the size of the input. Example: accessing an element in an array by"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "index.",
+        "text": "index."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(log n): Logarithmic time complexity. The algorithm's performance grows logarithmically",
+        "text": "O(log n): Logarithmic time complexity. The algorithm's performance grows logarithmically"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "with the size of the input. Example: binary search.",
+        "text": "with the size of the input. Example: binary search."
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(n): Linear time complexity. The algorithm's performance grows linearly with the size of the",
+        "text": "O(n): Linear time complexity. The algorithm's performance grows linearly with the size of the"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "input. Example: linear search.",
+        "text": "input. Example: linear search."
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(n log n): Log-linear time complexity. Commonly seen in efficient sorting algorithms such",
+        "text": "O(n log n): Log-linear time complexity. Commonly seen in efficient sorting algorithms such"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "as mergesort and heapsort.",
+        "text": "as mergesort and heapsort."
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(n^2): Quadratic time complexity. The algorithm's performance grows quadratically with the",
+        "text": "O(n^2): Quadratic time complexity. The algorithm's performance grows quadratically with the"
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "size of the input. Example: selection sort.",
+        "text": "size of the input. Example: selection sort."
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(2^n): Exponential time complexity. The algorithm's performance grows exponentially with",
+        "text": "O(2^n): Exponential time complexity. The algorithm's performance grows exponentially with"
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the size of the input. Example: brute-force search algorithms.",
+        "text": "the size of the input. Example: brute-force search algorithms."
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "O(n!): Factorial time complexity. The algorithm's performance grows factorially with the size",
+        "text": "O(n!): Factorial time complexity. The algorithm's performance grows factorially with the size"
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "of the input. Example: traveling salesman problem solved by brute force.",
+        "text": "of the input. Example: traveling salesman problem solved by brute force."
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

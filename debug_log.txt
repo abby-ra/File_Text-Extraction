@@ -1,0 +1,56 @@
+﻿python : python-dotenv could not parse statement starting at line 10
+At line:1 char:1
++ python pipeline.py "input_files\text_image.jpg" 2>&1 | Out-File -File ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (python-dotenv c...ting at line 10:String) [], Re 
+   moteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+python-dotenv could not parse statement starting at line 14
+2025-11-22 23:42:01,809 - __main__ - INFO - Initializing Hybrid Document Processing Pipeline
+2025-11-22 23:42:01,809 - layout_analyzer - WARNING - DeepDoctection not available, using 
+fallback detection
+INFO: Could not find files for the given pattern(s).
+C:\Python313\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:718: 
+UserWarning: No ccache found. Please be aware that recompiling all source files may be 
+required. You can download and install ccache from: 
+https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[32mCreating model: ('PP-LCNet_x1_0_doc_ori', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the 
+directory manually: `C:\Users\ASabi\.paddlex\official_models\PP-LCNet_x1_0_doc_ori`.[0m
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I1122 23:42:10.238878  3952 onednn_context.cc:81] oneDNN v3.6.2
+[32mCreating model: ('UVDoc', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the 
+directory manually: `C:\Users\ASabi\.paddlex\official_models\UVDoc`.[0m
+[32mCreating model: ('PP-LCNet_x1_0_textline_ori', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the 
+directory manually: `C:\Users\ASabi\.paddlex\official_models\PP-LCNet_x1_0_textline_ori`.[0m
+[32mCreating model: ('PP-OCRv5_server_det', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the 
+directory manually: `C:\Users\ASabi\.paddlex\official_models\PP-OCRv5_server_det`.[0m
+[32mCreating model: ('en_PP-OCRv5_mobile_rec', None)[0m
+[32mModel files already exist. Using cached files. To redownload, please delete the 
+directory manually: `C:\Users\ASabi\.paddlex\official_models\en_PP-OCRv5_mobile_rec`.[0m
+2025-11-22 23:42:13,517 - ocr_engine - WARNING - Malayalam OCR not available: No models are 
+available for the language 'ml' and OCR version None.
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|##########| 1/1 [00:00<00:00, 10837.99it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this 
+model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved 
+with a slow processor. This will result in minor differences in outputs. You'll still be able 
+to use a slow processor with `use_fast=False`.
+Some weights of VisionEncoderDecoderModel were not initialized from the model checkpoint at 
+microsoft/trocr-large-handwritten and are newly initialized: ['encoder.pooler.dense.bias', 
+'encoder.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for 
+predictions and inference.
+2025-11-22 23:42:22,301 - ocr_engine - WARNING - Tesseract not available: tesseract is not 
+installed or it's not in your PATH. See README file for more information.
+2025-11-22 23:42:22,302 - office_processor - WARNING - textract not available
+2025-11-22 23:42:22,672 - reasoning_engine - WARNING - LLM client initialization failed: No 
+module named 'openai'
+[SUCCESS] Successfully processed: text_image.jpg
+Output: {'json': WindowsPath('output/text_image.json'), 'markdown': WindowsPath('output/text_image.md')}

@@ -1,0 +1,569 @@
+{
+  "source": "ocr_outut.txt",
+  "text": "Kochi Metro Rail Limited (KMRL)\nCustomer Service – Edappally\nPassenger Complaint: Escalator Malfunction at Edappally Station\n\nReference\nDOC/2025/1942\n\nDepartment\nCustomer Service\n\nDate\n2025-09-12\n\nFrom: commuter.services@domain.com\n\nDate: 2025-09-12T10:18:23.327513\n\nI wish to bring to your notice a malfunction in the escalator facility at Edappally station, which caused inconvenience to passengers during peak hours. The issue was reported multiple times at the helpdesk, but no immediate action was observed at the site. This complaint is being formally documented for your information, review, and necessary corrective measures in line with the standard operating procedures of KMRL. The inconvenience caused has raised concerns regarding passenger safety, accessibility for senior citizens, and compliance with the safety audit framework mandated by regulatory bodies. It is therefore essential that prompt corrective action be initiated, duly acknowledged, and formally documented.\n\nReference: REF/2025/4762\nThe malfunction disrupted passenger flow during the morning rush, creating delays and congestion at the ticketing counters and platform entrances. It is requested that the concerned officer acknowledges receipt of this complaint and provides a clear timeline for inspection, repair, and service resumption. Annexures attached include photographic evidence of the malfunctioning escalator, staff duty logs, and passenger statements collected at the site. Financial estimates for immediate repair, along with procurement requirements for spare parts, are detailed in the appendix. Should there be any delay beyond approved service windows, the matter must be escalated to the Head of Technical Services for urgent intervention.\n\nReference: REF/2025/3890\nThe malfunction raises broader operational concerns regarding preventive maintenance scheduling and contractor performance. As outlined in the Service Level Agreement (SLA), regular inspections and predictive maintenance are required to avoid such incidents. The appendix includes vendor compliance records, recent maintenance invoices, and pending procurement lists for mechanical components. It is recommended that the vendor’s performance review be expedited and corrective penalties be imposed for SLA breaches. Acknowledgement of these concerns and confirmation of revised preventive measures must be formally communicated to the customer service division.\n\nReference: REF/2025/5177\nIt is further requested that this matter be addressed not only as a repair activity but as part of a wider operational improvement plan. Passenger safety, accessibility compliance for differently abled commuters, and public trust in KMRL operations are at stake. The document has been prepared with adherence to the statutory guidelines issued under the Metro Rail Safety Act, and compliance verification is requested at the earliest. A list of pending escalator and elevator service tickets across stations is attached in the annexure for holistic review. This will allow senior management to track patterns of recurring issues and authorize long-term infrastructure upgrades.\n\nReference: REF/2025/6234\nTo facilitate transparency, this complaint includes a recommendation to adopt digital monitoring of station facilities, including IoT-based escalator sensors and centralized dashboards for real-time maintenance alerts. A technical feasibility report is attached in the appendix for management consideration. Should this proposal be accepted, coordination with the IT department and procurement teams will be essential. Please ensure timely communication of decisions, approvals, and escalations to the relevant departments so that corrective actions are not delayed.\n\nIn conclusion, this document has been prepared in accordance with KMRL’s documentation standards and statutory compliance requirements. It is requested that the complaint be acknowledged, timelines for corrective action be confirmed, and deviations be escalated to the Head of Department without delay. Supporting annexures include photographic evidence, financial breakdowns, SLA compliance reports, vendor performance data, and a detailed action plan for implementation.\n\nRequesting immediate acknowledgment and corrective response from Customer Service.\n\nSincerely,\nDeepa Krishnan\nDeputy Operations Manager\nKMRL",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "ocr_outut_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 1312714070476299237,
+      "filename": "ocr_outut_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/groups/1"
+        },
+        {
+          "$ref": "#/groups/2"
+        },
+        {
+          "$ref": "#/groups/3"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/groups/4"
+        },
+        {
+          "$ref": "#/groups/5"
+        },
+        {
+          "$ref": "#/groups/6"
+        },
+        {
+          "$ref": "#/groups/7"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/1",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/2",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/3",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/4",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/5",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/6",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/17"
+          },
+          {
+            "$ref": "#/texts/18"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/7",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/19"
+          },
+          {
+            "$ref": "#/texts/20"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      },
+      {
+        "self_ref": "#/groups/8",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/23"
+          },
+          {
+            "$ref": "#/texts/24"
+          },
+          {
+            "$ref": "#/texts/25"
+          },
+          {
+            "$ref": "#/texts/26"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Kochi Metro Rail Limited (KMRL)",
+        "text": "Kochi Metro Rail Limited (KMRL)"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Customer Service – Edappally",
+        "text": "Customer Service – Edappally"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Passenger Complaint: Escalator Malfunction at Edappally Station",
+        "text": "Passenger Complaint: Escalator Malfunction at Edappally Station"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference",
+        "text": "Reference"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/1"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "DOC/2025/1942",
+        "text": "DOC/2025/1942"
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/2"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Department",
+        "text": "Department"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/2"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Customer Service",
+        "text": "Customer Service"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/3"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Date",
+        "text": "Date"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/3"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "2025-09-12",
+        "text": "2025-09-12"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "From: commuter.services@domain.com",
+        "text": "From: commuter.services@domain.com"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Date: 2025-09-12T10:18:23.327513",
+        "text": "Date: 2025-09-12T10:18:23.327513"
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I wish to bring to your notice a malfunction in the escalator facility at Edappally station, which caused inconvenience to passengers during peak hours. The issue was reported multiple times at the helpdesk, but no immediate action was observed at the site. This complaint is being formally documented for your information, review, and necessary corrective measures in line with the standard operating procedures of KMRL. The inconvenience caused has raised concerns regarding passenger safety, accessibility for senior citizens, and compliance with the safety audit framework mandated by regulatory bodies. It is therefore essential that prompt corrective action be initiated, duly acknowledged, and formally documented.",
+        "text": "I wish to bring to your notice a malfunction in the escalator facility at Edappally station, which caused inconvenience to passengers during peak hours. The issue was reported multiple times at the helpdesk, but no immediate action was observed at the site. This complaint is being formally documented for your information, review, and necessary corrective measures in line with the standard operating procedures of KMRL. The inconvenience caused has raised concerns regarding passenger safety, accessibility for senior citizens, and compliance with the safety audit framework mandated by regulatory bodies. It is therefore essential that prompt corrective action be initiated, duly acknowledged, and formally documented."
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/4"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/4762",
+        "text": "Reference: REF/2025/4762"
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/4"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "The malfunction disrupted passenger flow during the morning rush, creating delays and congestion at the ticketing counters and platform entrances. It is requested that the concerned officer acknowledges receipt of this complaint and provides a clear timeline for inspection, repair, and service resumption. Annexures attached include photographic evidence of the malfunctioning escalator, staff duty logs, and passenger statements collected at the site. Financial estimates for immediate repair, along with procurement requirements for spare parts, are detailed in the appendix. Should there be any delay beyond approved service windows, the matter must be escalated to the Head of Technical Services for urgent intervention.",
+        "text": "The malfunction disrupted passenger flow during the morning rush, creating delays and congestion at the ticketing counters and platform entrances. It is requested that the concerned officer acknowledges receipt of this complaint and provides a clear timeline for inspection, repair, and service resumption. Annexures attached include photographic evidence of the malfunctioning escalator, staff duty logs, and passenger statements collected at the site. Financial estimates for immediate repair, along with procurement requirements for spare parts, are detailed in the appendix. Should there be any delay beyond approved service windows, the matter must be escalated to the Head of Technical Services for urgent intervention."
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/3890",
+        "text": "Reference: REF/2025/3890"
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/5"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "The malfunction raises broader operational concerns regarding preventive maintenance scheduling and contractor performance. As outlined in the Service Level Agreement (SLA), regular inspections and predictive maintenance are required to avoid such incidents. The appendix includes vendor compliance records, recent maintenance invoices, and pending procurement lists for mechanical components. It is recommended that the vendor’s performance review be expedited and corrective penalties be imposed for SLA breaches. Acknowledgement of these concerns and confirmation of revised preventive measures must be formally communicated to the customer service division.",
+        "text": "The malfunction raises broader operational concerns regarding preventive maintenance scheduling and contractor performance. As outlined in the Service Level Agreement (SLA), regular inspections and predictive maintenance are required to avoid such incidents. The appendix includes vendor compliance records, recent maintenance invoices, and pending procurement lists for mechanical components. It is recommended that the vendor’s performance review be expedited and corrective penalties be imposed for SLA breaches. Acknowledgement of these concerns and confirmation of revised preventive measures must be formally communicated to the customer service division."
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/6"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/5177",
+        "text": "Reference: REF/2025/5177"
+      },
+      {
+        "self_ref": "#/texts/18",
+        "parent": {
+          "$ref": "#/groups/6"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "It is further requested that this matter be addressed not only as a repair activity but as part of a wider operational improvement plan. Passenger safety, accessibility compliance for differently abled commuters, and public trust in KMRL operations are at stake. The document has been prepared with adherence to the statutory guidelines issued under the Metro Rail Safety Act, and compliance verification is requested at the earliest. A list of pending escalator and elevator service tickets across stations is attached in the annexure for holistic review. This will allow senior management to track patterns of recurring issues and authorize long-term infrastructure upgrades.",
+        "text": "It is further requested that this matter be addressed not only as a repair activity but as part of a wider operational improvement plan. Passenger safety, accessibility compliance for differently abled commuters, and public trust in KMRL operations are at stake. The document has been prepared with adherence to the statutory guidelines issued under the Metro Rail Safety Act, and compliance verification is requested at the earliest. A list of pending escalator and elevator service tickets across stations is attached in the annexure for holistic review. This will allow senior management to track patterns of recurring issues and authorize long-term infrastructure upgrades."
+      },
+      {
+        "self_ref": "#/texts/19",
+        "parent": {
+          "$ref": "#/groups/7"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/6234",
+        "text": "Reference: REF/2025/6234"
+      },
+      {
+        "self_ref": "#/texts/20",
+        "parent": {
+          "$ref": "#/groups/7"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "To facilitate transparency, this complaint includes a recommendation to adopt digital monitoring of station facilities, including IoT-based escalator sensors and centralized dashboards for real-time maintenance alerts. A technical feasibility report is attached in the appendix for management consideration. Should this proposal be accepted, coordination with the IT department and procurement teams will be essential. Please ensure timely communication of decisions, approvals, and escalations to the relevant departments so that corrective actions are not delayed.",
+        "text": "To facilitate transparency, this complaint includes a recommendation to adopt digital monitoring of station facilities, including IoT-based escalator sensors and centralized dashboards for real-time maintenance alerts. A technical feasibility report is attached in the appendix for management consideration. Should this proposal be accepted, coordination with the IT department and procurement teams will be essential. Please ensure timely communication of decisions, approvals, and escalations to the relevant departments so that corrective actions are not delayed."
+      },
+      {
+        "self_ref": "#/texts/21",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "In conclusion, this document has been prepared in accordance with KMRL’s documentation standards and statutory compliance requirements. It is requested that the complaint be acknowledged, timelines for corrective action be confirmed, and deviations be escalated to the Head of Department without delay. Supporting annexures include photographic evidence, financial breakdowns, SLA compliance reports, vendor performance data, and a detailed action plan for implementation.",
+        "text": "In conclusion, this document has been prepared in accordance with KMRL’s documentation standards and statutory compliance requirements. It is requested that the complaint be acknowledged, timelines for corrective action be confirmed, and deviations be escalated to the Head of Department without delay. Supporting annexures include photographic evidence, financial breakdowns, SLA compliance reports, vendor performance data, and a detailed action plan for implementation."
+      },
+      {
+        "self_ref": "#/texts/22",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Requesting immediate acknowledgment and corrective response from Customer Service.",
+        "text": "Requesting immediate acknowledgment and corrective response from Customer Service."
+      },
+      {
+        "self_ref": "#/texts/23",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Sincerely,",
+        "text": "Sincerely,"
+      },
+      {
+        "self_ref": "#/texts/24",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Deepa Krishnan",
+        "text": "Deepa Krishnan"
+      },
+      {
+        "self_ref": "#/texts/25",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Deputy Operations Manager",
+        "text": "Deputy Operations Manager"
+      },
+      {
+        "self_ref": "#/texts/26",
+        "parent": {
+          "$ref": "#/groups/8"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "KMRL",
+        "text": "KMRL"
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "source": "text2.txt",
+  "text": "[English - PaddleOCR]\nEMPLOYMENT APPLICATION FORM\nPLEASE PRINT ALL INFORMATION REQUESTED EXCEPT SIGNATURE\nAPPLICANTS MAY BE TESTED FOR ILLEGAL DRUGS\nPLEASE COMPLETE PAGES 1-5.\nDate:\nName:\nLast\nFirst\nMiddle\nMaiden\nPresent Address:\nNumber\nStreet\nCity\nState\nZip\nHow Long:\nSocial Security No.:\nTelephone:\nIf under 18, please list age:\nPosition Applied For:\nDays/Hours Available to Work:\nSalary Desired:\nNo Pref\nThur\nMon\nFri\nTue\nSat\nWed\nSun\nHow many hours can you work weekly?\nCan you work nights?\nEmployment Desired:\nFULL-TIME ONLY PART-TIME ONLY\nFULL-OR PART-TIME\nWhen available for work?\nEDUCATION & OTHER INFORMATION\nTYPE OF SCHOOL\nNAME OF\nLOCATION\nNO. OF\nMAJOR &\nSCHOOL\n(Complete mailing address)\nYEARS\nDEGREE\nCOMPLETED\nHigh School\nCollege\nBus. or Trade School\n7\nProfessional School",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "text2_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 17061776982628845057,
+      "filename": "text2_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          },
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          },
+          {
+            "$ref": "#/texts/17"
+          },
+          {
+            "$ref": "#/texts/18"
+          },
+          {
+            "$ref": "#/texts/19"
+          },
+          {
+            "$ref": "#/texts/20"
+          },
+          {
+            "$ref": "#/texts/21"
+          },
+          {
+            "$ref": "#/texts/22"
+          },
+          {
+            "$ref": "#/texts/23"
+          },
+          {
+            "$ref": "#/texts/24"
+          },
+          {
+            "$ref": "#/texts/25"
+          },
+          {
+            "$ref": "#/texts/26"
+          },
+          {
+            "$ref": "#/texts/27"
+          },
+          {
+            "$ref": "#/texts/28"
+          },
+          {
+            "$ref": "#/texts/29"
+          },
+          {
+            "$ref": "#/texts/30"
+          },
+          {
+            "$ref": "#/texts/31"
+          },
+          {
+            "$ref": "#/texts/32"
+          },
+          {
+            "$ref": "#/texts/33"
+          },
+          {
+            "$ref": "#/texts/34"
+          },
+          {
+            "$ref": "#/texts/35"
+          },
+          {
+            "$ref": "#/texts/36"
+          },
+          {
+            "$ref": "#/texts/37"
+          },
+          {
+            "$ref": "#/texts/38"
+          },
+          {
+            "$ref": "#/texts/39"
+          },
+          {
+            "$ref": "#/texts/40"
+          },
+          {
+            "$ref": "#/texts/41"
+          },
+          {
+            "$ref": "#/texts/42"
+          },
+          {
+            "$ref": "#/texts/43"
+          },
+          {
+            "$ref": "#/texts/44"
+          },
+          {
+            "$ref": "#/texts/45"
+          },
+          {
+            "$ref": "#/texts/46"
+          },
+          {
+            "$ref": "#/texts/47"
+          },
+          {
+            "$ref": "#/texts/48"
+          },
+          {
+            "$ref": "#/texts/49"
+          },
+          {
+            "$ref": "#/texts/50"
+          },
+          {
+            "$ref": "#/texts/51"
+          },
+          {
+            "$ref": "#/texts/52"
+          },
+          {
+            "$ref": "#/texts/53"
+          },
+          {
+            "$ref": "#/texts/54"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "[English - PaddleOCR]",
+        "text": "[English - PaddleOCR]"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "EMPLOYMENT APPLICATION FORM",
+        "text": "EMPLOYMENT APPLICATION FORM"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "PLEASE PRINT ALL INFORMATION REQUESTED EXCEPT SIGNATURE",
+        "text": "PLEASE PRINT ALL INFORMATION REQUESTED EXCEPT SIGNATURE"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "APPLICANTS MAY BE TESTED FOR ILLEGAL DRUGS",
+        "text": "APPLICANTS MAY BE TESTED FOR ILLEGAL DRUGS"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "PLEASE COMPLETE PAGES 1-5.",
+        "text": "PLEASE COMPLETE PAGES 1-5."
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Date:",
+        "text": "Date:"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Name:",
+        "text": "Name:"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Last",
+        "text": "Last"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "First",
+        "text": "First"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Middle",
+        "text": "Middle"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Maiden",
+        "text": "Maiden"
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Present Address:",
+        "text": "Present Address:"
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Number",
+        "text": "Number"
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Street",
+        "text": "Street"
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "City",
+        "text": "City"
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "State",
+        "text": "State"
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Zip",
+        "text": "Zip"
+      },
+      {
+        "self_ref": "#/texts/18",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "How Long:",
+        "text": "How Long:"
+      },
+      {
+        "self_ref": "#/texts/19",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Social Security No.:",
+        "text": "Social Security No.:"
+      },
+      {
+        "self_ref": "#/texts/20",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Telephone:",
+        "text": "Telephone:"
+      },
+      {
+        "self_ref": "#/texts/21",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "If under 18, please list age:",
+        "text": "If under 18, please list age:"
+      },
+      {
+        "self_ref": "#/texts/22",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Position Applied For:",
+        "text": "Position Applied For:"
+      },
+      {
+        "self_ref": "#/texts/23",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Days/Hours Available to Work:",
+        "text": "Days/Hours Available to Work:"
+      },
+      {
+        "self_ref": "#/texts/24",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Salary Desired:",
+        "text": "Salary Desired:"
+      },
+      {
+        "self_ref": "#/texts/25",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "No Pref",
+        "text": "No Pref"
+      },
+      {
+        "self_ref": "#/texts/26",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Thur",
+        "text": "Thur"
+      },
+      {
+        "self_ref": "#/texts/27",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Mon",
+        "text": "Mon"
+      },
+      {
+        "self_ref": "#/texts/28",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Fri",
+        "text": "Fri"
+      },
+      {
+        "self_ref": "#/texts/29",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Tue",
+        "text": "Tue"
+      },
+      {
+        "self_ref": "#/texts/30",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Sat",
+        "text": "Sat"
+      },
+      {
+        "self_ref": "#/texts/31",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Wed",
+        "text": "Wed"
+      },
+      {
+        "self_ref": "#/texts/32",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Sun",
+        "text": "Sun"
+      },
+      {
+        "self_ref": "#/texts/33",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "How many hours can you work weekly?",
+        "text": "How many hours can you work weekly?"
+      },
+      {
+        "self_ref": "#/texts/34",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Can you work nights?",
+        "text": "Can you work nights?"
+      },
+      {
+        "self_ref": "#/texts/35",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Employment Desired:",
+        "text": "Employment Desired:"
+      },
+      {
+        "self_ref": "#/texts/36",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "FULL-TIME ONLY PART-TIME ONLY",
+        "text": "FULL-TIME ONLY PART-TIME ONLY"
+      },
+      {
+        "self_ref": "#/texts/37",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "FULL-OR PART-TIME",
+        "text": "FULL-OR PART-TIME"
+      },
+      {
+        "self_ref": "#/texts/38",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "When available for work?",
+        "text": "When available for work?"
+      },
+      {
+        "self_ref": "#/texts/39",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "EDUCATION & OTHER INFORMATION",
+        "text": "EDUCATION & OTHER INFORMATION"
+      },
+      {
+        "self_ref": "#/texts/40",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "TYPE OF SCHOOL",
+        "text": "TYPE OF SCHOOL"
+      },
+      {
+        "self_ref": "#/texts/41",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "NAME OF",
+        "text": "NAME OF"
+      },
+      {
+        "self_ref": "#/texts/42",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "LOCATION",
+        "text": "LOCATION"
+      },
+      {
+        "self_ref": "#/texts/43",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "NO. OF",
+        "text": "NO. OF"
+      },
+      {
+        "self_ref": "#/texts/44",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "MAJOR &",
+        "text": "MAJOR &"
+      },
+      {
+        "self_ref": "#/texts/45",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "SCHOOL",
+        "text": "SCHOOL"
+      },
+      {
+        "self_ref": "#/texts/46",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "(Complete mailing address)",
+        "text": "(Complete mailing address)"
+      },
+      {
+        "self_ref": "#/texts/47",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "YEARS",
+        "text": "YEARS"
+      },
+      {
+        "self_ref": "#/texts/48",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "DEGREE",
+        "text": "DEGREE"
+      },
+      {
+        "self_ref": "#/texts/49",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "COMPLETED",
+        "text": "COMPLETED"
+      },
+      {
+        "self_ref": "#/texts/50",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "High School",
+        "text": "High School"
+      },
+      {
+        "self_ref": "#/texts/51",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "College",
+        "text": "College"
+      },
+      {
+        "self_ref": "#/texts/52",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Bus. or Trade School",
+        "text": "Bus. or Trade School"
+      },
+      {
+        "self_ref": "#/texts/53",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "7",
+        "text": "7"
+      },
+      {
+        "self_ref": "#/texts/54",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Professional School",
+        "text": "Professional School"
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

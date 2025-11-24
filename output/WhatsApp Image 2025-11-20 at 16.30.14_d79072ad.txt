@@ -1,0 +1,26 @@
+[English - PaddleOCR]
+t line of Java moqram should always
+be pacbaqe delaration
+packaqe com sample;
+import
+librarypath;
+class Examplel { pubuic 2
+for (int i=o; i<args·length ; itn) {
+s4s oct .po (args li]. to uppercasec+ " 1t"); 333
+Java -platform independent, port able , seure
+secee- suntine chelke a memory manaq ement
+class woader - wit load apmopriate byle code.
+byte code vuifie- verifics byte code.
+java Jir - display runtime crrors.
+…
+↑
+eutput giuen.
+J
+Robust - strong memory manaq cment, exeption handling
+Multi-thrreaded- devclop mecetiple tasks.
+Variables at DataTypes
+variable - temporary storing location
+local variable - local suope intialize before uee
+instance class variable -aussed anywhee, nonced to initialize bfore
+use
+static variable

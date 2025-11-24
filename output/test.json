@@ -1,0 +1,262 @@
+{
+  "source": "test.txt",
+  "text": "{\n  \"document_type\": \"invoice\",\n  \"invoice_no\": \"KM-INV-2025-09\",\n  \"date\": \"2025-09-14\",\n  \"vendor\": \"ABC Supplies Pvt Ltd\",\n  \"line_items\": [\n    {\"item\": \"Steel Rails\", \"qty\": 100, \"unit_price\": \"₹5,000\", \"total\": \"₹500,000\"},\n    {\"item\": \"Concrete Sleepers\", \"qty\": 200, \"unit_price\": \"₹1,200\", \"total\": \"₹240,000\"}\n  ],\n  \"total_amount\": \"₹740,000\",\n  \"tax\": \"₹37,000\",\n  \"grand_total\": \"₹777,000\"\n}",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "test_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 320151687344005003,
+      "filename": "test_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "{",
+        "text": "{"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"document_type\": \"invoice\",",
+        "text": "\"document_type\": \"invoice\","
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"invoice_no\": \"KM-INV-2025-09\",",
+        "text": "\"invoice_no\": \"KM-INV-2025-09\","
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"date\": \"2025-09-14\",",
+        "text": "\"date\": \"2025-09-14\","
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"vendor\": \"ABC Supplies Pvt Ltd\",",
+        "text": "\"vendor\": \"ABC Supplies Pvt Ltd\","
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"line_items\": [",
+        "text": "\"line_items\": ["
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "{\"item\": \"Steel Rails\", \"qty\": 100, \"unit_price\": \"₹5,000\", \"total\": \"₹500,000\"},",
+        "text": "{\"item\": \"Steel Rails\", \"qty\": 100, \"unit_price\": \"₹5,000\", \"total\": \"₹500,000\"},"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "{\"item\": \"Concrete Sleepers\", \"qty\": 200, \"unit_price\": \"₹1,200\", \"total\": \"₹240,000\"}",
+        "text": "{\"item\": \"Concrete Sleepers\", \"qty\": 200, \"unit_price\": \"₹1,200\", \"total\": \"₹240,000\"}"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "],",
+        "text": "],"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"total_amount\": \"₹740,000\",",
+        "text": "\"total_amount\": \"₹740,000\","
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"tax\": \"₹37,000\",",
+        "text": "\"tax\": \"₹37,000\","
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"grand_total\": \"₹777,000\"",
+        "text": "\"grand_total\": \"₹777,000\""
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "}",
+        "text": "}"
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

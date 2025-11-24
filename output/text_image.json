@@ -1,0 +1,547 @@
+{
+  "source": "text_image.txt",
+  "text": "[English - PaddleOCR]\nference Number 12267042\nANTIRAGGING UNDERTAKING BY THE STUDENT\n1.I, ABINISHA A S s/o - d/o Mr./Mrs./Ms ANNADURAI K, having been admitted to Bannari\nAmman Institute of Technology, have received a copy of the UGC regulations on Curbing\nmenace of Ragging in Higher Educational Institutions, 2009, (hereinafter called the\n\"Regulations\") carefully read and fully understood the provisions contained in the said\nRegulations.\nI have, in particular, perused clause 3 of the Regulations and am aware as to what constitute\nragging.\nI have also, in particular, perused clause 7 and clause 9.1 of the Regulation and am fully awar\nof the penal and administrative action that is liable to be taken against me in case I am found\nguilty of or abetting ragging, actively or passively, or being part of a conspiracy to promote\nragging.\n4. I hereby solemnly aver and undertake that:-\nI will not indulge in any behavior or act that may be constituted as ragging under clause 3 of\nthe Regulations.\nI will not participate in or abet or propagate through any act of commission or omission that\nmay be constituted as ragging under ciause 3 of the Regulations.\n5. I hereby affirm that, if found guilty of ragging, I am liable for punishment according to clause\n9.1 of the Regulations, without prejudice to any other criminal action that may be taken\nagainst me under any penal law or any law for the time being in force.\n.I hereby declare that I have not been expelled or debarred from admission in any institution in\nthe country on account of being found guilty of, abetting or being part of a conspiracy to\npromote, ragging; and further affirm that, in case the declaration is found to be untrue, I am\naware that my admission is liable to be cancelled.\nDECLARED ON24.08.25\nSignature of Deponent\nABINISHA A S\nVERIFICATION\nV that he cntn  this affavi etr  he be my owlee\nthe affidavit is false and nothing has been concealed or misstated therein.",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "text_image_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 7385639161670318174,
+      "filename": "text_image_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          },
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          },
+          {
+            "$ref": "#/texts/17"
+          },
+          {
+            "$ref": "#/texts/18"
+          },
+          {
+            "$ref": "#/texts/19"
+          },
+          {
+            "$ref": "#/texts/20"
+          },
+          {
+            "$ref": "#/texts/21"
+          },
+          {
+            "$ref": "#/texts/22"
+          },
+          {
+            "$ref": "#/texts/23"
+          },
+          {
+            "$ref": "#/texts/24"
+          },
+          {
+            "$ref": "#/texts/25"
+          },
+          {
+            "$ref": "#/texts/26"
+          },
+          {
+            "$ref": "#/texts/27"
+          },
+          {
+            "$ref": "#/texts/28"
+          },
+          {
+            "$ref": "#/texts/29"
+          },
+          {
+            "$ref": "#/texts/30"
+          },
+          {
+            "$ref": "#/texts/31"
+          },
+          {
+            "$ref": "#/texts/32"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "[English - PaddleOCR]",
+        "text": "[English - PaddleOCR]"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "ference Number 12267042",
+        "text": "ference Number 12267042"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "ANTIRAGGING UNDERTAKING BY THE STUDENT",
+        "text": "ANTIRAGGING UNDERTAKING BY THE STUDENT"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "1.I, ABINISHA A S s/o - d/o Mr./Mrs./Ms ANNADURAI K, having been admitted to Bannari",
+        "text": "1.I, ABINISHA A S s/o - d/o Mr./Mrs./Ms ANNADURAI K, having been admitted to Bannari"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Amman Institute of Technology, have received a copy of the UGC regulations on Curbing",
+        "text": "Amman Institute of Technology, have received a copy of the UGC regulations on Curbing"
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "menace of Ragging in Higher Educational Institutions, 2009, (hereinafter called the",
+        "text": "menace of Ragging in Higher Educational Institutions, 2009, (hereinafter called the"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "\"Regulations\") carefully read and fully understood the provisions contained in the said",
+        "text": "\"Regulations\") carefully read and fully understood the provisions contained in the said"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Regulations.",
+        "text": "Regulations."
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I have, in particular, perused clause 3 of the Regulations and am aware as to what constitute",
+        "text": "I have, in particular, perused clause 3 of the Regulations and am aware as to what constitute"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "ragging.",
+        "text": "ragging."
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I have also, in particular, perused clause 7 and clause 9.1 of the Regulation and am fully awar",
+        "text": "I have also, in particular, perused clause 7 and clause 9.1 of the Regulation and am fully awar"
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "of the penal and administrative action that is liable to be taken against me in case I am found",
+        "text": "of the penal and administrative action that is liable to be taken against me in case I am found"
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "guilty of or abetting ragging, actively or passively, or being part of a conspiracy to promote",
+        "text": "guilty of or abetting ragging, actively or passively, or being part of a conspiracy to promote"
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "ragging.",
+        "text": "ragging."
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "4. I hereby solemnly aver and undertake that:-",
+        "text": "4. I hereby solemnly aver and undertake that:-"
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I will not indulge in any behavior or act that may be constituted as ragging under clause 3 of",
+        "text": "I will not indulge in any behavior or act that may be constituted as ragging under clause 3 of"
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the Regulations.",
+        "text": "the Regulations."
+      },
+      {
+        "self_ref": "#/texts/18",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I will not participate in or abet or propagate through any act of commission or omission that",
+        "text": "I will not participate in or abet or propagate through any act of commission or omission that"
+      },
+      {
+        "self_ref": "#/texts/19",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "may be constituted as ragging under ciause 3 of the Regulations.",
+        "text": "may be constituted as ragging under ciause 3 of the Regulations."
+      },
+      {
+        "self_ref": "#/texts/20",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "5. I hereby affirm that, if found guilty of ragging, I am liable for punishment according to clause",
+        "text": "5. I hereby affirm that, if found guilty of ragging, I am liable for punishment according to clause"
+      },
+      {
+        "self_ref": "#/texts/21",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "9.1 of the Regulations, without prejudice to any other criminal action that may be taken",
+        "text": "9.1 of the Regulations, without prejudice to any other criminal action that may be taken"
+      },
+      {
+        "self_ref": "#/texts/22",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "against me under any penal law or any law for the time being in force.",
+        "text": "against me under any penal law or any law for the time being in force."
+      },
+      {
+        "self_ref": "#/texts/23",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": ".I hereby declare that I have not been expelled or debarred from admission in any institution in",
+        "text": ".I hereby declare that I have not been expelled or debarred from admission in any institution in"
+      },
+      {
+        "self_ref": "#/texts/24",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the country on account of being found guilty of, abetting or being part of a conspiracy to",
+        "text": "the country on account of being found guilty of, abetting or being part of a conspiracy to"
+      },
+      {
+        "self_ref": "#/texts/25",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "promote, ragging; and further affirm that, in case the declaration is found to be untrue, I am",
+        "text": "promote, ragging; and further affirm that, in case the declaration is found to be untrue, I am"
+      },
+      {
+        "self_ref": "#/texts/26",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "aware that my admission is liable to be cancelled.",
+        "text": "aware that my admission is liable to be cancelled."
+      },
+      {
+        "self_ref": "#/texts/27",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "DECLARED ON24.08.25",
+        "text": "DECLARED ON24.08.25"
+      },
+      {
+        "self_ref": "#/texts/28",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Signature of Deponent",
+        "text": "Signature of Deponent"
+      },
+      {
+        "self_ref": "#/texts/29",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "ABINISHA A S",
+        "text": "ABINISHA A S"
+      },
+      {
+        "self_ref": "#/texts/30",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "VERIFICATION",
+        "text": "VERIFICATION"
+      },
+      {
+        "self_ref": "#/texts/31",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "V that he cntn  this affavi etr  he be my owlee",
+        "text": "V that he cntn  this affavi etr  he be my owlee"
+      },
+      {
+        "self_ref": "#/texts/32",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the affidavit is false and nothing has been concealed or misstated therein.",
+        "text": "the affidavit is false and nothing has been concealed or misstated therein."
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

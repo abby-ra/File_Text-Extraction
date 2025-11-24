@@ -1,0 +1,922 @@
+{
+  "source": "ocr_output.txt",
+  "text": "\nKochi Metro Rail Limited (KMRL)\n Customer Service - Aluva\n Passenger Complaint: Delay at Aluva\n Reference\n DOC/2025/1767\n Department\n Date\n Customer Service\n 2025-09-11\n From: passenger@domain.com\n Date: 2025-09-11T05:52:01.087715\n I faced a delay at the station and wish to record a formal complaint describing the incident: This\n is submitted for your information and necessary action. This is submitted for your information and\n necessary action. This document is prepared in accordance with the standard operating procedures and\n statutory guidelines. This is submitted for your information and necessary action. This is submitted\n for your information and necessary action. This is submitted for your information and necessary\n action. Reference: REF/2025/2345\n I faced a delay at the station and wish to record a formal complaint describing the incident: It is\n requested that the concerned officer acknowledges receipt and confirms the timelines. Financial\n estimates and procurement timelines are provided in the appendix. Please escalate any deviations to\n the Head of Department for approval. Please find enclosed the details requested and the supporting\n annexures. Financial estimates and procurement timelines are provided in the appendix. This document\n is prepared in accordance with the standard operating procedures and statutory guidelines.\n Reference: REF/2025/9349\n I faced a delay at the station and wish to record a formal complaint describing the incident: Please\n escalate any deviations to the Head of Department for approval. Please escalate any deviations to\n the Head of Department for approval. The action items include coordination with the contractor,\n scheduling of maintenance, and confirmation of spare availability. Please escalate any deviations to\n the Head of Department for approval. Please escalate any deviations to the Head of Department for\n approval. Financial estimates and procurement timelines are provided in the appendix. Reference:\n REF/2025/6776\n I faced a delay at the station and wish to record a formal complaint describing the incident: It is\n requested that the concerned officer acknowledges receipt and confirms the timelines. This document\n is prepared in accordance with the standard operating procedures and statutory guidelines. It is\n requested that the concerned officer acknowledges receipt and confirms the timelines. It is\n requested that the concerned officer acknowledges receipt and confirms the timelines. Financial\n estimates and procurement timelines are provided in the appendix. The action items include\n coordination with the contractor, scheduling of maintenance, and confirmation of spare availability.\n Reference: REF/2025/3348\n I faced a delay at the station and wish to record a formal complaint describing the incident: This\n is submitted for your information and necessary action. This is submitted for your information and\n necessary action. Please find enclosed the details requested and the supporting annexures. The\n action items include coordination with the contractor, scheduling of maintenance, and confirmation\n of spare availability. The action items include coordination with the contractor, scheduling of\nmaintenance, and confirmation of spare availability. This is submitted for your information and\n necessary action. Reference: REF/2025/1434\n I faced a delay at the station and wish to record a formal complaint describing the incident:\n Financial estimates and procurement timelines are provided in the appendix. This is submitted for\n your information and necessary action. Please find enclosed the details requested and the supporting\n annexures. It is requested that the concerned officer acknowledges receipt and confirms the\n timelines. This is submitted for your information and necessary action. Financial estimates and\n procurement timelines are provided in the appendix. Reference: REF/2025/1101\n Requesting action and response from Customer Service.\n Sincerely,\n Anita Nair\n Senior Operations Manager\n KMRL",
+  "structured": {
+    "schema_name": "DoclingDocument",
+    "version": "1.8.0",
+    "name": "ocr_output_temp",
+    "origin": {
+      "mimetype": "text/markdown",
+      "binary_hash": 5480016969858773079,
+      "filename": "ocr_output_temp.md"
+    },
+    "furniture": {
+      "self_ref": "#/furniture",
+      "children": [],
+      "content_layer": "furniture",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "body": {
+      "self_ref": "#/body",
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/groups/0"
+        }
+      ],
+      "content_layer": "body",
+      "name": "_root_",
+      "label": "unspecified"
+    },
+    "groups": [
+      {
+        "self_ref": "#/groups/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [
+          {
+            "$ref": "#/texts/1"
+          },
+          {
+            "$ref": "#/texts/2"
+          },
+          {
+            "$ref": "#/texts/3"
+          },
+          {
+            "$ref": "#/texts/4"
+          },
+          {
+            "$ref": "#/texts/5"
+          },
+          {
+            "$ref": "#/texts/6"
+          },
+          {
+            "$ref": "#/texts/7"
+          },
+          {
+            "$ref": "#/texts/8"
+          },
+          {
+            "$ref": "#/texts/9"
+          },
+          {
+            "$ref": "#/texts/10"
+          },
+          {
+            "$ref": "#/texts/11"
+          },
+          {
+            "$ref": "#/texts/12"
+          },
+          {
+            "$ref": "#/texts/13"
+          },
+          {
+            "$ref": "#/texts/14"
+          },
+          {
+            "$ref": "#/texts/15"
+          },
+          {
+            "$ref": "#/texts/16"
+          },
+          {
+            "$ref": "#/texts/17"
+          },
+          {
+            "$ref": "#/texts/18"
+          },
+          {
+            "$ref": "#/texts/19"
+          },
+          {
+            "$ref": "#/texts/20"
+          },
+          {
+            "$ref": "#/texts/21"
+          },
+          {
+            "$ref": "#/texts/22"
+          },
+          {
+            "$ref": "#/texts/23"
+          },
+          {
+            "$ref": "#/texts/24"
+          },
+          {
+            "$ref": "#/texts/25"
+          },
+          {
+            "$ref": "#/texts/26"
+          },
+          {
+            "$ref": "#/texts/27"
+          },
+          {
+            "$ref": "#/texts/28"
+          },
+          {
+            "$ref": "#/texts/29"
+          },
+          {
+            "$ref": "#/texts/30"
+          },
+          {
+            "$ref": "#/texts/31"
+          },
+          {
+            "$ref": "#/texts/32"
+          },
+          {
+            "$ref": "#/texts/33"
+          },
+          {
+            "$ref": "#/texts/34"
+          },
+          {
+            "$ref": "#/texts/35"
+          },
+          {
+            "$ref": "#/texts/36"
+          },
+          {
+            "$ref": "#/texts/37"
+          },
+          {
+            "$ref": "#/texts/38"
+          },
+          {
+            "$ref": "#/texts/39"
+          },
+          {
+            "$ref": "#/texts/40"
+          },
+          {
+            "$ref": "#/texts/41"
+          },
+          {
+            "$ref": "#/texts/42"
+          },
+          {
+            "$ref": "#/texts/43"
+          },
+          {
+            "$ref": "#/texts/44"
+          },
+          {
+            "$ref": "#/texts/45"
+          },
+          {
+            "$ref": "#/texts/46"
+          },
+          {
+            "$ref": "#/texts/47"
+          },
+          {
+            "$ref": "#/texts/48"
+          },
+          {
+            "$ref": "#/texts/49"
+          },
+          {
+            "$ref": "#/texts/50"
+          },
+          {
+            "$ref": "#/texts/51"
+          },
+          {
+            "$ref": "#/texts/52"
+          },
+          {
+            "$ref": "#/texts/53"
+          },
+          {
+            "$ref": "#/texts/54"
+          },
+          {
+            "$ref": "#/texts/55"
+          },
+          {
+            "$ref": "#/texts/56"
+          },
+          {
+            "$ref": "#/texts/57"
+          }
+        ],
+        "content_layer": "body",
+        "name": "group",
+        "label": "inline"
+      }
+    ],
+    "texts": [
+      {
+        "self_ref": "#/texts/0",
+        "parent": {
+          "$ref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "title",
+        "prov": [],
+        "orig": "Extracted Text",
+        "text": "Extracted Text"
+      },
+      {
+        "self_ref": "#/texts/1",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Kochi Metro Rail Limited (KMRL)",
+        "text": "Kochi Metro Rail Limited (KMRL)"
+      },
+      {
+        "self_ref": "#/texts/2",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Customer Service - Aluva",
+        "text": "Customer Service - Aluva"
+      },
+      {
+        "self_ref": "#/texts/3",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Passenger Complaint: Delay at Aluva",
+        "text": "Passenger Complaint: Delay at Aluva"
+      },
+      {
+        "self_ref": "#/texts/4",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference",
+        "text": "Reference"
+      },
+      {
+        "self_ref": "#/texts/5",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "DOC/2025/1767",
+        "text": "DOC/2025/1767"
+      },
+      {
+        "self_ref": "#/texts/6",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Department",
+        "text": "Department"
+      },
+      {
+        "self_ref": "#/texts/7",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Date",
+        "text": "Date"
+      },
+      {
+        "self_ref": "#/texts/8",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Customer Service",
+        "text": "Customer Service"
+      },
+      {
+        "self_ref": "#/texts/9",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "2025-09-11",
+        "text": "2025-09-11"
+      },
+      {
+        "self_ref": "#/texts/10",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "From: passenger@domain.com",
+        "text": "From: passenger@domain.com"
+      },
+      {
+        "self_ref": "#/texts/11",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Date: 2025-09-11T05:52:01.087715",
+        "text": "Date: 2025-09-11T05:52:01.087715"
+      },
+      {
+        "self_ref": "#/texts/12",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident: This",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident: This"
+      },
+      {
+        "self_ref": "#/texts/13",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "is submitted for your information and necessary action. This is submitted for your information and",
+        "text": "is submitted for your information and necessary action. This is submitted for your information and"
+      },
+      {
+        "self_ref": "#/texts/14",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "necessary action. This document is prepared in accordance with the standard operating procedures and",
+        "text": "necessary action. This document is prepared in accordance with the standard operating procedures and"
+      },
+      {
+        "self_ref": "#/texts/15",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "statutory guidelines. This is submitted for your information and necessary action. This is submitted",
+        "text": "statutory guidelines. This is submitted for your information and necessary action. This is submitted"
+      },
+      {
+        "self_ref": "#/texts/16",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "for your information and necessary action. This is submitted for your information and necessary",
+        "text": "for your information and necessary action. This is submitted for your information and necessary"
+      },
+      {
+        "self_ref": "#/texts/17",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "action. Reference: REF/2025/2345",
+        "text": "action. Reference: REF/2025/2345"
+      },
+      {
+        "self_ref": "#/texts/18",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident: It is",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident: It is"
+      },
+      {
+        "self_ref": "#/texts/19",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "requested that the concerned officer acknowledges receipt and confirms the timelines. Financial",
+        "text": "requested that the concerned officer acknowledges receipt and confirms the timelines. Financial"
+      },
+      {
+        "self_ref": "#/texts/20",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "estimates and procurement timelines are provided in the appendix. Please escalate any deviations to",
+        "text": "estimates and procurement timelines are provided in the appendix. Please escalate any deviations to"
+      },
+      {
+        "self_ref": "#/texts/21",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the Head of Department for approval. Please find enclosed the details requested and the supporting",
+        "text": "the Head of Department for approval. Please find enclosed the details requested and the supporting"
+      },
+      {
+        "self_ref": "#/texts/22",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "annexures. Financial estimates and procurement timelines are provided in the appendix. This document",
+        "text": "annexures. Financial estimates and procurement timelines are provided in the appendix. This document"
+      },
+      {
+        "self_ref": "#/texts/23",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "is prepared in accordance with the standard operating procedures and statutory guidelines.",
+        "text": "is prepared in accordance with the standard operating procedures and statutory guidelines."
+      },
+      {
+        "self_ref": "#/texts/24",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/9349",
+        "text": "Reference: REF/2025/9349"
+      },
+      {
+        "self_ref": "#/texts/25",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident: Please",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident: Please"
+      },
+      {
+        "self_ref": "#/texts/26",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "escalate any deviations to the Head of Department for approval. Please escalate any deviations to",
+        "text": "escalate any deviations to the Head of Department for approval. Please escalate any deviations to"
+      },
+      {
+        "self_ref": "#/texts/27",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the Head of Department for approval. The action items include coordination with the contractor,",
+        "text": "the Head of Department for approval. The action items include coordination with the contractor,"
+      },
+      {
+        "self_ref": "#/texts/28",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "scheduling of maintenance, and confirmation of spare availability. Please escalate any deviations to",
+        "text": "scheduling of maintenance, and confirmation of spare availability. Please escalate any deviations to"
+      },
+      {
+        "self_ref": "#/texts/29",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "the Head of Department for approval. Please escalate any deviations to the Head of Department for",
+        "text": "the Head of Department for approval. Please escalate any deviations to the Head of Department for"
+      },
+      {
+        "self_ref": "#/texts/30",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "approval. Financial estimates and procurement timelines are provided in the appendix. Reference:",
+        "text": "approval. Financial estimates and procurement timelines are provided in the appendix. Reference:"
+      },
+      {
+        "self_ref": "#/texts/31",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "REF/2025/6776",
+        "text": "REF/2025/6776"
+      },
+      {
+        "self_ref": "#/texts/32",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident: It is",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident: It is"
+      },
+      {
+        "self_ref": "#/texts/33",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "requested that the concerned officer acknowledges receipt and confirms the timelines. This document",
+        "text": "requested that the concerned officer acknowledges receipt and confirms the timelines. This document"
+      },
+      {
+        "self_ref": "#/texts/34",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "is prepared in accordance with the standard operating procedures and statutory guidelines. It is",
+        "text": "is prepared in accordance with the standard operating procedures and statutory guidelines. It is"
+      },
+      {
+        "self_ref": "#/texts/35",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "requested that the concerned officer acknowledges receipt and confirms the timelines. It is",
+        "text": "requested that the concerned officer acknowledges receipt and confirms the timelines. It is"
+      },
+      {
+        "self_ref": "#/texts/36",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "requested that the concerned officer acknowledges receipt and confirms the timelines. Financial",
+        "text": "requested that the concerned officer acknowledges receipt and confirms the timelines. Financial"
+      },
+      {
+        "self_ref": "#/texts/37",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "estimates and procurement timelines are provided in the appendix. The action items include",
+        "text": "estimates and procurement timelines are provided in the appendix. The action items include"
+      },
+      {
+        "self_ref": "#/texts/38",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "coordination with the contractor, scheduling of maintenance, and confirmation of spare availability.",
+        "text": "coordination with the contractor, scheduling of maintenance, and confirmation of spare availability."
+      },
+      {
+        "self_ref": "#/texts/39",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Reference: REF/2025/3348",
+        "text": "Reference: REF/2025/3348"
+      },
+      {
+        "self_ref": "#/texts/40",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident: This",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident: This"
+      },
+      {
+        "self_ref": "#/texts/41",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "is submitted for your information and necessary action. This is submitted for your information and",
+        "text": "is submitted for your information and necessary action. This is submitted for your information and"
+      },
+      {
+        "self_ref": "#/texts/42",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "necessary action. Please find enclosed the details requested and the supporting annexures. The",
+        "text": "necessary action. Please find enclosed the details requested and the supporting annexures. The"
+      },
+      {
+        "self_ref": "#/texts/43",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "action items include coordination with the contractor, scheduling of maintenance, and confirmation",
+        "text": "action items include coordination with the contractor, scheduling of maintenance, and confirmation"
+      },
+      {
+        "self_ref": "#/texts/44",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "of spare availability. The action items include coordination with the contractor, scheduling of",
+        "text": "of spare availability. The action items include coordination with the contractor, scheduling of"
+      },
+      {
+        "self_ref": "#/texts/45",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "maintenance, and confirmation of spare availability. This is submitted for your information and",
+        "text": "maintenance, and confirmation of spare availability. This is submitted for your information and"
+      },
+      {
+        "self_ref": "#/texts/46",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "necessary action. Reference: REF/2025/1434",
+        "text": "necessary action. Reference: REF/2025/1434"
+      },
+      {
+        "self_ref": "#/texts/47",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "I faced a delay at the station and wish to record a formal complaint describing the incident:",
+        "text": "I faced a delay at the station and wish to record a formal complaint describing the incident:"
+      },
+      {
+        "self_ref": "#/texts/48",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Financial estimates and procurement timelines are provided in the appendix. This is submitted for",
+        "text": "Financial estimates and procurement timelines are provided in the appendix. This is submitted for"
+      },
+      {
+        "self_ref": "#/texts/49",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "your information and necessary action. Please find enclosed the details requested and the supporting",
+        "text": "your information and necessary action. Please find enclosed the details requested and the supporting"
+      },
+      {
+        "self_ref": "#/texts/50",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "annexures. It is requested that the concerned officer acknowledges receipt and confirms the",
+        "text": "annexures. It is requested that the concerned officer acknowledges receipt and confirms the"
+      },
+      {
+        "self_ref": "#/texts/51",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "timelines. This is submitted for your information and necessary action. Financial estimates and",
+        "text": "timelines. This is submitted for your information and necessary action. Financial estimates and"
+      },
+      {
+        "self_ref": "#/texts/52",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "procurement timelines are provided in the appendix. Reference: REF/2025/1101",
+        "text": "procurement timelines are provided in the appendix. Reference: REF/2025/1101"
+      },
+      {
+        "self_ref": "#/texts/53",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Requesting action and response from Customer Service.",
+        "text": "Requesting action and response from Customer Service."
+      },
+      {
+        "self_ref": "#/texts/54",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Sincerely,",
+        "text": "Sincerely,"
+      },
+      {
+        "self_ref": "#/texts/55",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Anita Nair",
+        "text": "Anita Nair"
+      },
+      {
+        "self_ref": "#/texts/56",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "Senior Operations Manager",
+        "text": "Senior Operations Manager"
+      },
+      {
+        "self_ref": "#/texts/57",
+        "parent": {
+          "$ref": "#/groups/0"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "text",
+        "prov": [],
+        "orig": "KMRL",
+        "text": "KMRL"
+      }
+    ],
+    "pictures": [],
+    "tables": [],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {}
+  }
+}

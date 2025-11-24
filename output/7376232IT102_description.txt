@@ -1,0 +1,72 @@
+Image Description (Qwen-VL)
+======================================================================
+
+### Image Description
+
+#### Main Objects and Subjects:
+- **Dashboard**: The main interface of the National Internship Portal.
+- **Welcome Message**: "Welcome: ABINAYA"
+- **Email**: "abbynayaraj@gmail.com"
+- **Dashboard Section**:
+  - **2 Internships Applied**
+  - **0 Shortlisted**
+  - **0 Interview Calls**
+  - **0 Selected**
+  - **0 Completed**
+  - **0 Gig Applied**
+  - **0 Connections Verified**
+  - **0 Connections Pending for Verification**
+- **Profile Section**:
+  - **Dashboard**
+  - **Profile**
+  - **Assessment Test (NEW)**
+  - **Application Management**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  - **Go to Main Page**
+- **Assessment Test (NEW)**:
+  - **ULB/Smart City Name**
+  - **Internship Name**
+  - **Date of Application**
+  - **Status**
+- **Application Management**:
+  - **ULB/Smart City Name**
+  - **Private Internships**
+  - **Government Internships**
+  - **NHAI Internships**
+  - **AMRUTAM 2.0**
+  - **Problem Statements**
+  - **Logout**
+  -

@@ -1,0 +1,17 @@
+[English - PaddleOCR]
+Common Orders of Growth:
+O(1): Constant time complexity. The algorithm's execution time or space requirement remains
+constant regardless of the size of the input. Example: accessing an element in an array by
+index.
+O(log n): Logarithmic time complexity. The algorithm's performance grows logarithmically
+with the size of the input. Example: binary search.
+O(n): Linear time complexity. The algorithm's performance grows linearly with the size of the
+input. Example: linear search.
+O(n log n): Log-linear time complexity. Commonly seen in efficient sorting algorithms such
+as mergesort and heapsort.
+O(n^2): Quadratic time complexity. The algorithm's performance grows quadratically with the
+size of the input. Example: selection sort.
+O(2^n): Exponential time complexity. The algorithm's performance grows exponentially with
+the size of the input. Example: brute-force search algorithms.
+O(n!): Factorial time complexity. The algorithm's performance grows factorially with the size
+of the input. Example: traveling salesman problem solved by brute force.

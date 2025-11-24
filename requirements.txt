@@ -1,12 +1,48 @@
-pymupdf
-python-magic
-pytesseract
-Pillow
-boto3
-python-docx
-sumy
-spacy
-transformers
-fpdf
-langdetect
-requests
+# ===== HYBRID DOCUMENT PROCESSING PIPELINE =====
+# Complete system for extracting text from all document types
+# Including: PDFs, scanned documents, Word/Excel, images, handwritten notes
+
+# Core Preprocessing and Layout Detection
+magic-pdf[full]>=0.7.0  # MinerU for preprocessing (deskew, denoise, normalize)
+deepdoctection>=0.30.0  # Layout detection (tables, forms, handwritten regions)
+
+# Hybrid OCR System
+paddleocr>=2.7.0  # Malayalam/English printed text OCR
+paddlepaddle>=2.6.0  # PaddleOCR backend
+pytesseract>=0.3.10  # Tesseract Indic models fallback
+easyocr>=1.7.0  # Additional OCR support
+
+# AI/ML for Handwriting (Vision models removed)
+transformers>=4.40.0  # TrOCR for handwritten text
+torch>=2.0.0  # Deep learning framework
+accelerate>=0.25.0  # Model acceleration
+sentencepiece>=0.1.99  # Tokenization
+safetensors>=0.4.0  # Model loading
+
+# Office Document Extraction
+textract>=1.6.5  # DOCX, XLSX, PPTX extraction
+python-docx>=1.0.0  # Enhanced DOCX handling
+openpyxl>=3.1.0  # Enhanced XLSX handling
+python-pptx>=0.6.23  # Enhanced PPTX handling
+
+# Structured Output Conversion
+docling>=2.0.0  # Canonical format conversion (JSON/Markdown)
+pydantic>=2.0.0  # Data validation and models
+
+# Image and PDF Processing
+Pillow>=10.0.0  # Image processing
+opencv-python>=4.8.0  # Computer vision preprocessing
+PyMuPDF>=1.23.0  # PDF handling
+pdf2image>=1.16.0  # PDF to image conversion
+
+# LLM Integration for Reasoning
+openai>=1.0.0  # GPT-4o integration
+anthropic>=0.25.0  # Claude integration (alternative)
+
+# Utilities
+python-dotenv>=1.0.0  # Environment configuration
+loguru>=0.7.0  # Advanced logging
+tqdm>=4.66.0  # Progress bars
+rich>=13.0.0  # Beautiful terminal output
+python-magic-bin>=0.4.14; platform_system == "Windows"  # File type detection
+protobuf>=4.24.0  # Model serialization
