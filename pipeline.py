@@ -16,6 +16,8 @@ from ocr_engine import HybridOCREngine
 from office_processor import OfficeDocumentProcessor
 from normalizer import DoclingNormalizer
 from reasoning_engine import ReasoningEngine
+# Vision analyzer (Qwen-VL)
+from vision_analyzer import QwenVisionAnalyzer
 
 # Setup logging
 logging.basicConfig(
@@ -46,9 +48,15 @@ class HybridDocumentPipeline:
         self.office_processor = OfficeDocumentProcessor(self.config)
         self.normalizer = DoclingNormalizer(self.config)
         
-        # Vision analysis disabled
+        # Vision analysis (Qwen-VL) - optional
         self.vision_analyzer = None
-        
+        if self.config.processing.enable_vision_analysis:
+            try:
+                self.vision_analyzer = QwenVisionAnalyzer(self.config)
+                logger.info("Vision analyzer initialized")
+            except Exception as e:
+                logger.warning(f"Failed to initialize vision analyzer: {e}")
+
         if self.config.processing.enable_reasoning:
             self.reasoning_engine = ReasoningEngine(self.config)
         else:
